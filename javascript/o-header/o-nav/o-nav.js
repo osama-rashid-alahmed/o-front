@@ -10,20 +10,51 @@ class Onav  {
      
     }
 
+    // default style 
+
     createstyle = () =>{
         $("o-nav").css({
             "background-color" : "#1FB5F8",
             "width": "100%",
             "height":"55px",
-            "float" : "left"
+            "float": "left"
+            
+            
 
         })
         $('o-nav ul').css({
         "color" : "white",
         "width": "300px",
         "height":"20px",
-        "float" : "left"})
+        })
+        
+        // $('o-nav ul li').mouseenter(function(){
+        //     $(this).addClass("shadow");
+        //     $(this).animate({
+        //         "bottom" : "+=5px"
+        //     },200)
+        // })
 
+
+        $('o-nav ul li').on({
+         mouseenter : function(){
+            $(this).animate({
+                "bottom" : "+=3px",
+                
+            },200)
+            $(this).addClass("shadow")
+         },
+
+         mouseleave : function(){
+             $(this).animate({
+                "bottom" : "-=3px"
+             },200)
+             $(this).removeClass("shadow")
+
+         }
+
+    })
+        
 
     }
 }
