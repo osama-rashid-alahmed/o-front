@@ -22,6 +22,14 @@ class Onav  {
             
 
         })
+
+        $("o-nav h1").css({
+          "color": "#ffffff",
+          "margin": "8px 20px 4px 20px",
+          "cursor":"pointer"
+        })
+
+
         $('o-nav ul').css({
         "color" : "white",
         "width": "300px",
@@ -36,7 +44,7 @@ class Onav  {
         // })
 
 
-        $('o-nav ul li').on({
+        $('o-nav ul li , a ').on({
          mouseenter : function(){
             $(this).animate({
                 "bottom" : "+=3px",
@@ -54,6 +62,8 @@ class Onav  {
          }
 
     })
+
+
         
 
     }

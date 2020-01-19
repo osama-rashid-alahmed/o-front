@@ -4,8 +4,10 @@
 
     o-nav ul li{
         display: inline;
-        margin-right: 10px;
+        margin-right: 25px;
         position: relative;
+        cursor: pointer;
+
         
         }
     o-nav ul.right{
@@ -18,12 +20,26 @@
                 
     }
     o-nav ul li.shadow{
-        text-shadow: 4px 5px 3px black;
+        text-shadow: 4px 8px 6px #000000;
 
                 
     }
 
- 
+    o-nav ul li a {
+        text-decoration: none;
+        display: inline-block;
+        color: #ffffff;
+    }
+
+ o-nav h1.right {
+     position: relative;
+     float: right;
+ }
+
+ o-nav h1.left {
+    position: relative;
+    float: left;
+}
     
     
 
