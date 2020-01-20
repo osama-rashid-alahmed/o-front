@@ -21,14 +21,6 @@ class Onav  {
             href: "./style/laptopscreen.css"
          }).appendTo("head");
 
-        $("o-nav").css({
-            "background-color" : "#1FB5F8",
-            "width": "100%",
-            "height":"55px",
-            "float": "left"
-    
-        })
-
         $("o-nav h1").css({
           "cursor":"pointer"
         })
