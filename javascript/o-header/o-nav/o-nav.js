@@ -6,57 +6,48 @@
 class Onav  {
 
     constructor(){
+    
     this.createstyle()
      
     }
 
     // default style 
-
     createstyle = () =>{
+     $(document).ready(function(){
+
+        $("<link/>", {
+            rel: "stylesheet",
+            type: "text/css",
+            href: "./style/laptopscreen.css"
+         }).appendTo("head");
+
         $("o-nav").css({
             "background-color" : "#1FB5F8",
             "width": "100%",
             "height":"55px",
             "float": "left"
-            
-            
-
+    
         })
 
         $("o-nav h1").css({
-          "color": "#ffffff",
-          "margin": "8px 20px 4px 20px",
           "cursor":"pointer"
         })
 
 
-        $('o-nav ul').css({
-        "color" : "white",
-        "width": "300px",
-        "height":"20px",
-        })
-        
-        // $('o-nav ul li').mouseenter(function(){
-        //     $(this).addClass("shadow");
-        //     $(this).animate({
-        //         "bottom" : "+=5px"
-        //     },200)
-        // })
-
-
+       // on hover
         $('o-nav ul li , a ').on({
          mouseenter : function(){
             $(this).animate({
-                "bottom" : "+=3px",
+                "bottom" : "+=2px",
                 
-            },200)
+            },100)
             $(this).addClass("shadow")
          },
 
          mouseleave : function(){
              $(this).animate({
-                "bottom" : "-=3px"
-             },200)
+                "bottom" : "-=2px"
+             },100)
              $(this).removeClass("shadow")
 
          }
@@ -64,10 +55,12 @@ class Onav  {
     })
 
 
-        
+})
+
 
     }
 }
+
 var oonav = new Onav()
 
 
