@@ -33,11 +33,24 @@
     o-nav.dark{
         background-color: #292929 !important;
     }
+    o-nav.gray{
+        background-color: #9C9E9F !important;
+        color: #2B2B2B !important;
+    }
+    
+    o-nav.lightgray{
+        background-color: #DFDFDF !important;
+        color: #2B2B2B !important;
+
+    }
 
     o-nav ul{
-        width: 300px;
+        width: auto;
         height : 20px
     }
+
+
+
 
     o-nav ul li{
         display: inline;
