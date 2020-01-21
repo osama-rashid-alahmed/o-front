@@ -15,6 +15,7 @@ class Onav  {
     createstyle = () =>{
      $(document).ready(function(){
 
+        
 
         $("o-nav h1").css({
           "cursor":"pointer"
@@ -22,32 +23,49 @@ class Onav  {
 
 
        // on hover
-        $('o-nav ul li , a ').on({
+        $('o-nav ul li , a , icons img').on({
          mouseenter : function(){
             $(this).animate({
                 "bottom" : "+=2px",
                 
             },100)
-            $(this).addClass("shadow")
+            // $(this).addClass("shadow")
          },
 
          mouseleave : function(){
              $(this).animate({
                 "bottom" : "-=2px"
              },100)
-             $(this).removeClass("shadow")
+            //  $(this).removeClass("shadow")
 
          }
 
     })
-
-
 })
-
 
     }
 }
 
-var oonav = new Onav()
+
+class Oslide{
+
+    constructor(){
+     this.createstyle()
+    }
+
+    createstyle = () =>{
+        // $('o-slide').css({
+
+
+        // })
+    }
+}
+
+
+
+
+
+var oslide = new Oslide()
+var onav = new Onav()
 
 

@@ -7,7 +7,7 @@ $("<link/>", {
     href: "./style/global.css"
  }).appendTo("head");
 
- 
+
 var script  = document.createElement('script'); 
 script.src  = './javascript/Elements.js'; 
 script.type = 'text/javascript'; 
