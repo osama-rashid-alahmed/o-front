@@ -15,11 +15,6 @@ class Onav  {
     createstyle = () =>{
      $(document).ready(function(){
 
-        $("<link/>", {
-            rel: "stylesheet",
-            type: "text/css",
-            href: "./style/laptopscreen.css"
-         }).appendTo("head");
 
         $("o-nav h1").css({
           "cursor":"pointer"
