@@ -8,6 +8,7 @@
         right: 0px;
     }
 
+
     o-slide.primary{
         background-color: #1FB5F8 !important;
     }
@@ -46,6 +47,10 @@
         background-color: #DFDFDF !important;
         color: #2B2B2B !important;
 
+    }
+
+    o-slide icons img{
+        margin: 20px 5px 5px 20px;
     }
 
 

@@ -3,6 +3,8 @@
 // script.type = 'text/javascript';
 // document.getElementsByTagName('head')[0].appendChild(script);
 
+
+// o-nav styles and effects
 class Onav  {
 
     constructor(){
@@ -11,7 +13,6 @@ class Onav  {
      
     }
 
-    // default style 
     createstyle = () =>{
      $(document).ready(function(){
 
@@ -44,7 +45,7 @@ class Onav  {
 
 
     $('o-nav .showslide').click(function(){
-        $('o-slide').animate({width:'show'},350);
+        $('o-slide.closed').animate({width:'show'},350);
     })
 })
 
@@ -52,6 +53,11 @@ class Onav  {
 }
 
 
+
+
+
+
+// o-slide styles and effects
 class Oslide{
 
     constructor(){
@@ -60,6 +66,13 @@ class Oslide{
 
     createstyle = () =>{
       $('o-slide.closed').hide()
+
+      $('o-slide icons img.closeslide').click(function(){
+          $('o-slide').animate({width:'hide'},350)
+          
+      })
+      
+
     }
 }
 
