@@ -15,11 +15,12 @@ class Onav  {
     createstyle = () =>{
      $(document).ready(function(){
 
-        
 
         $("o-nav h1").css({
           "cursor":"pointer"
         })
+
+
 
 
        // on hover
@@ -39,7 +40,11 @@ class Onav  {
             //  $(this).removeClass("shadow")
 
          }
+    })
 
+
+    $('o-nav .showslide').click(function(){
+        $('o-slide').show()
     })
 })
 
@@ -54,10 +59,7 @@ class Oslide{
     }
 
     createstyle = () =>{
-        // $('o-slide').css({
-
-
-        // })
+      $('o-slide').hide()
     }
 }
 
