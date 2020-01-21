@@ -44,7 +44,7 @@ class Onav  {
 
 
     $('o-nav .showslide').click(function(){
-        $('o-slide').animate({width:'toggle'},350);
+        $('o-slide').animate({width:'show'},350);
     })
 })
 

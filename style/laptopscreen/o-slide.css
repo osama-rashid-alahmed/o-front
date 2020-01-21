@@ -3,9 +3,49 @@
     o-slide{
         width: 250px;
         height: 100%;
-        background-color: black;
+        background-color : #1FB5F8;
         position: absolute;
         right: 0px;
+    }
+
+    o-slide.primary{
+        background-color: #1FB5F8 !important;
+    }
+
+    o-slide.lightblue{
+        background-color: #1FE9F8 !important;
+
+    }
+    o-skide.lightgreen{
+        background-color: #1FF8A7 !important;
+    }
+    o-slide.lightyellow{
+        background-color: #FFFF56 !important;
+        color: #2B2B2B !important;
+
+    }
+    o-slide.orange{
+        background-color: #F8B71F !important;
+        
+    }
+    o-slide.red{
+        background-color: #FE3A3A !important;
+    }
+    o-slide.pink{
+        background-color: #FF51B4 !important;
+    }
+    o-slide.dark{
+        background-color: #292929 !important;
+    }
+    o-slide.gray{
+        background-color: #9C9E9F !important;
+        color: #2B2B2B !important;
+    }
+    
+    o-slide.lightgray{
+        background-color: #DFDFDF !important;
+        color: #2B2B2B !important;
+
     }
 
 
