@@ -44,7 +44,7 @@ class Onav  {
 
 
     $('o-nav .showslide').click(function(){
-        $('o-slide').show()
+        $('o-slide').animate({width:'toggle'},350);
     })
 })
 
@@ -59,7 +59,7 @@ class Oslide{
     }
 
     createstyle = () =>{
-      $('o-slide').hide()
+      $('o-slide.closed').hide()
     }
 }
 
