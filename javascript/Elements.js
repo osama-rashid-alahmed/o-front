@@ -25,7 +25,7 @@ class Onav  {
 
 
        // on hover
-        $('o-nav ul li , a , icons img').on({
+        $('o-nav ul li , a , o-icons img').on({
          mouseenter : function(){
             $(this).animate({
                 "bottom" : "+=2px",
@@ -67,7 +67,7 @@ class Oslide{
     createstyle = () =>{
       $('o-slide.closed').hide()
 
-      $('o-slide icons img.closeslide').click(function(){
+      $('o-slide o-icons img.closeslide').click(function(){
           $('o-slide').animate({width:'hide'},350)
           
       })

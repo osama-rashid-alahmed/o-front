@@ -8,6 +8,12 @@
         height:55px;
         float: left
     }
+
+    o-nav o-icons{
+        width: auto;
+        height: auto;
+        float: right;
+    }
     o-nav.primary{
         background-color: #1FB5F8 !important;
     }
@@ -63,6 +69,10 @@
      margin-top: 25px !important;
     }
 
+    o-nav.large o-icons {
+    margin-top: 10px !important;
+    }
+
     o-nav.large h1 {
         margin-top: 17px !important;
        }
@@ -74,6 +84,10 @@
     o-nav.huge h1{
         margin-top: 22px ;
         
+    }
+
+    o-nav.huge o-icons{
+        margin-top: 15px;
     }
 
     o-nav ul{
@@ -126,7 +140,7 @@
     float: left;
 }
 
-o-nav icons img {
+o-nav o-icons img {
     width: 30px;
     margin: 10px 20px 0px 10px;
     position: relative;
@@ -134,12 +148,12 @@ o-nav icons img {
     
 }
 
-o-nav icons img.right {
+o-nav o-icons.right {
     float: right;
     
 }
 
-o-nav icons img.left {
+o-nav o-icons.left {
     float: left;
     
 }
