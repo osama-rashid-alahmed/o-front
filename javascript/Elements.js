@@ -5,28 +5,15 @@
 
 
 // o-nav styles and effects
-class Onav  {
-
-    constructor(){
-    
-    this.createstyle()
-     
-    }
-
-    createstyle = () =>{
-     $(document).ready(function(){
 
 
-        $("o-nav h1").css({
-          "cursor":"pointer"
-        })
+class actionstyles {
 
 
-
-
-       // on hover
-        $('o-nav ul li , a , o-icons img').on({
-         mouseenter : function(){
+// set up the bottom +-=2 animation
+    createbottomstyle = (any)=>{
+      $(any).on({
+        mouseenter : function(){
             $(this).animate({
                 "bottom" : "+=2px",
                 
@@ -41,7 +28,29 @@ class Onav  {
             //  $(this).removeClass("shadow")
 
          }
-    })
+      })
+    }
+}
+
+class Onav {
+
+    constructor(){
+    this.createstyle()
+     
+    }
+
+    createstyle = () =>{
+     $(document).ready(function(){
+
+
+        $("o-nav h1").css({
+          "cursor":"pointer"
+        })
+      
+        // create the animation
+       var actionstyles1 = new actionstyles()
+       actionstyles1.createbottomstyle("o-nav ul li , o-nav ul li a ,o-nav o-icons img")
+       actionstyles1 = null
 
 
     $('o-nav .showslide').click(function(){
@@ -71,6 +80,13 @@ class Oslide{
           $('o-slide').animate({width:'hide'},350)
           
       })
+
+      // create the animation
+      var actionstyles1 = new actionstyles()
+      actionstyles1.createbottomstyle("o-slide o-icons img")
+      actionstyles1 = null
+
+
       
 
     }

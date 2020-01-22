@@ -49,8 +49,25 @@
 
     }
 
+    o-slide o-icons{
+        width: auto;
+    }
+
     o-slide o-icons img{
-        margin: 20px 5px 5px 20px;
+        margin: 10px 10px 20px 10px !important;
+        width: 30px;
+        position: relative;
+
+    }
+
+    
+    o-slide o-icons img.right{
+        float: right !important;
+    }
+
+    
+    o-slide o-icons img.left{
+        float: left !important;
     }
 
 
