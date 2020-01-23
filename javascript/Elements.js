@@ -77,7 +77,8 @@ class Oslide{
       $('o-slide.closed').hide()
 
       $('o-slide o-icons img.closeslide').click(function(){
-          $('o-slide').animate({width:'hide'},350)
+          $('o-slide ').animate({width:'hide'},350)
+          
           
       })
 
