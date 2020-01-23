@@ -97,12 +97,34 @@
     o-slide o-imager p{
         position: absolute;
         color: #ffffff;
-        left: 20%;
-        text-align: center;
-     
-
+        left: 18%;
+        width: 250px;
         
     }
+
+ 
+
+     o-slide ul.list li a{
+        color:inherit;
+        text-decoration: none;
+
+
+     }
+     
+     o-slide ul.list li {
+        display: inline-block;
+        font-size: 25px;
+        border-top: 1px groove gray;
+        width: 250px;
+        position: relative;
+        right: 39px;
+        margin-bottom: 10px;
+        text-align: center;
+        padding-top: 10px;
+         
+        
+     }
+
 
 
 }

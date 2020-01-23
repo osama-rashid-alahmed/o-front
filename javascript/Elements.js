@@ -84,7 +84,7 @@ class Oslide{
 
       // create the animation
       var actionstyles1 = new actionstyles()
-      actionstyles1.createbottomstyle("o-slide o-icons img")
+      actionstyles1.createbottomstyle("o-slide o-icons img , o-slide ul.list li")
       actionstyles1 = null
 
 
