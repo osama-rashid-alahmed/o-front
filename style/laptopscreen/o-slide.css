@@ -79,9 +79,29 @@
         float: left !important;
     }
 
-
-    o-slide img.header{
+   o-slide o-imager{
         width: 250px;
+        position: relative;
+        height: 300px;
+    }
+
+    o-slide o-imager img.header{
+        width: 250px;
+    }
+    o-slide o-imager h1 ,
+    o-slide o-imager h2,
+    o-slide o-imager h3,
+    o-slide o-imager h4,
+    o-slide o-imager h5,
+    o-slide o-imager h6,
+    o-slide o-imager p{
+        position: absolute;
+        color: #ffffff;
+        left: 20%;
+        text-align: center;
+     
+
+        
     }
 
 
