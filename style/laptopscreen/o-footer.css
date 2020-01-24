@@ -2,13 +2,27 @@
 
  o-footer{
      width: 100%;
-     height: 50px;
+     height: 100px;
      background-color: black;
      float: left;
      position: absolute;
      bottom: 0px;
      left: 0px;
  }
+
+ o-footer.small{
+  height: 100px !important;
+ }
+
+ 
+ o-footer.large{
+    height: 200px !important;
+   }
+
+   
+ o-footer.huge{
+    height: 300px !important;
+   }
 
 
 
