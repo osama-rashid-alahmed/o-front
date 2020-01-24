@@ -1,4 +1,4 @@
-/* @media only screen and (min-width: 1000px) { */
+@media only screen and (min-width: 1000px) { 
 
  o-footer{
      width: 100%;
@@ -10,9 +10,6 @@
      left: 0px;
  }
 
- o-footer.small{
-  height: 100px !important;
- }
 
  
  o-footer.large{
@@ -25,5 +22,45 @@
    }
 
 
+   o-footer.primary{
+    background-color: #1FB5F8 !important;
+}
+o-footer.lightblue{
+    background-color: #1FE9F8 !important;
 
-/* } */
+}
+o-footer.lightgreen{
+    background-color: #1FF8A7 !important;
+}
+o-footer.lightyellow{
+    background-color: #FFFF56 !important;
+    color: #2B2B2B !important;
+
+}
+o-footer.orange{
+    background-color: #F8B71F !important;
+    
+}
+o-footer.red{
+    background-color: #FE3A3A !important;
+}
+o-footer.pink{
+    background-color: #FF51B4 !important;
+}
+o-footer.dark{
+    background-color: #292929 !important;
+}
+o-footer.gray{
+    background-color: #9C9E9F !important;
+    color: #2B2B2B !important;
+}
+
+o-footer.lightgray{
+    background-color: #DFDFDF !important;
+    color: #2B2B2B !important;
+
+}
+
+
+
+ } 
