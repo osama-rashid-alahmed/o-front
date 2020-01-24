@@ -114,15 +114,13 @@
      o-slide ul.list li {
         display: inline-block;
         font-size: 25px;
-        border-top: 1px groove gray;
+        border-bottom: 1px groove gray;
         width: 250px;
         position: relative;
-        right: 39px;
         margin-bottom: 10px;
-        text-align: center;
-        padding-top: 10px;
-         
-        
+        padding-bottom: 10px;
+        right: 39px;
+        padding-left: 40px;
      }
 
 
