@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 @import "./laptopscreen/o-nav.css";
 @import "./laptopscreen/o-slide.css";
+@import "./laptopscreen/o-footer.css";
 
 *{
  font-family: 'Roboto', sans-serif;
