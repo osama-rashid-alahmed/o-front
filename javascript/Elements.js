@@ -96,6 +96,21 @@ class Oslide{
 
 
 
+class Ofooter{
+
+    constructor(){
+
+    }
+
+    createstyle = () =>{
+        
+    }
+
+}
+
+
+
+
 
 var oslide = new Oslide()
 var onav = new Onav()
