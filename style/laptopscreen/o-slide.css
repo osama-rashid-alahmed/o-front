@@ -38,8 +38,14 @@
     o-slide.pink{
         background-color: #FF51B4 !important;
     }
-    o-slide.dark{
+    o-slide.dark {
         background-color: #292929 !important;
+        color: #d3cdcd;
+
+    }
+    o-slide.dark ul.list li,
+    o-slide.dark o-icons{
+        border-color: #d3cdcd !important;
     }
     o-slide.gray{
         background-color: #9C9E9F !important;
@@ -54,9 +60,12 @@
 
     o-slide o-icons{
         width: 250px !important;
-        margin-bottom: 20px !important;
+        /* margin-bottom: 20px !important; */
         display: block !important;
         height: 30px !important;
+        border-top: 1px groove gray;
+        border-bottom: 1px groove gray;
+        padding-bottom: 18px;
         
 
         
@@ -96,7 +105,7 @@
     o-slide o-imager h6,
     o-slide o-imager p{
         position: absolute;
-        color: #ffffff;
+        color: white;
         left: 18%;
         width: 250px;
         
