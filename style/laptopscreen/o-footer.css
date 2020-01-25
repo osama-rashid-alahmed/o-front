@@ -61,6 +61,36 @@ o-footer.lightgray{
 
 }
 
+o-footer div.hold-25{
+    width: 25%;
+    height: 100%;
+    float: left;
+}
+
+o-footer div h3.title{
+ margin: 20px;
+}
+
+o-footer div ul{
+    display: block;
+    margin-top: -10px;
+}
+
+ o-footer div ul li,
+ o-footer div ul li a{
+    color:inherit;
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+    margin: 5px 0px 0px 0px ;
+    
+
+ }
+
+
+
+
+
 
 
  } 
