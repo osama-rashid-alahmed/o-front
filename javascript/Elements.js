@@ -99,11 +99,14 @@ class Oslide{
 class Ofooter{
 
     constructor(){
+        this.createstyle()
 
     }
 
     createstyle = () =>{
-        
+        var actionstyles1 = new actionstyles()
+        actionstyles1.createbottomstyle("o-footer div ul.list li")
+        actionstyles1 = null
     }
 
 }
@@ -114,5 +117,6 @@ class Ofooter{
 
 var oslide = new Oslide()
 var onav = new Onav()
+var ofooter = new Ofooter()
 
 
