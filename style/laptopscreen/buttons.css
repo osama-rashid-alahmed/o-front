@@ -4,6 +4,20 @@ button.bt{
  height: 40px;
  border-radius: 3px;
  border: none;
+ margin: 5px;
+ color: white;
  
+}
+
+button.bt.large{
+    width: 15% !important;
+}
+
+button.bt.huge{
+    width: 25% !important;
+}
+
+button.bt.pink{
+    background-color: #FC0086 ;
 }
 
