@@ -2,6 +2,7 @@
 @import "./laptopscreen/o-nav.css";
 @import "./laptopscreen/o-slide.css";
 @import "./laptopscreen/o-footer.css";
+@import "./laptopscreen/buttons.css";
 
 *{
  font-family: 'Roboto', sans-serif;
