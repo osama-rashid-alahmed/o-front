@@ -8,6 +8,7 @@
      position: fixed;
      bottom: 0px;
      left: 0px;
+     
  }
 
 
@@ -49,6 +50,8 @@ o-footer.pink{
 }
 o-footer.dark{
     background-color: #292929 !important;
+    color: #d3cdcd;
+
 }
 o-footer.gray{
     background-color: #9C9E9F !important;
