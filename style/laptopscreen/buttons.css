@@ -6,6 +6,7 @@ button.bt{
  border: none;
  margin: 5px;
  color: white;
+ text-align: center;
  
 }
 
@@ -20,4 +21,39 @@ button.bt.huge{
 button.bt.pink{
     background-color: #FC0086 ;
 }
+
+button.bt.purple{
+    background-color: #5C2DF9 ;
+}
+button.bt.primary{
+    background-color: #1FB5F8 ;
+}
+button.bt.green{
+    background-color: #4EC541 ;
+}
+button.bt.lightgreen{
+    background-color: #26FB91 ;
+}
+button.bt.lightorange{
+    background-color: #FBAD26 ;
+}
+button.bt.red{
+    background-color: #F93636 ;
+}
+button.bt.dark{
+    background-color: #292929;
+}
+button.bt.gray{
+    background-color: #9C9E9F;
+}
+button.bt.lightgray{
+    background-color:  #DFDFDF;
+}
+
+
+
+
+
+
+
 
