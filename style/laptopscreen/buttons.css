@@ -52,6 +52,10 @@ button.bt.lightgray{
     background-color:  #DFDFDF;
 }
 
+button.bt.rd {
+    border-radius: 30px !important;
+}
+
 
 
 
