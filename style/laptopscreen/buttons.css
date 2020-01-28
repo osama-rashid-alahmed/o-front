@@ -161,6 +161,24 @@ button.bt.large.icon img{
 }
 
 
+button.bt.huge.icon p{
+    margin: 1.5px 0px 0px 32% ;
+    padding: 0;
+    float: left;
+    font-size: 18px;
+       
+   }
+   
+   button.bt.huge.icon img{
+       position: relative;
+       width: 23px;
+       margin-left: 5px;
+   
+   
+   }
+   
+   
+   
 
 
 
