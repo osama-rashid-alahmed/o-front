@@ -112,11 +112,23 @@ class Ofooter{
 }
 
 
+class Obutton {
+    constructor(){
+      this.createstyle()
+    }
+
+    createstyle = () =>{
+        var actionstyles1 = new actionstyles()
+        actionstyles1.createbottomstyle("button.bt")
+        actionstyles1 = null
+    }
+}
 
 
 
-var oslide = new Oslide()
-var onav = new Onav()
-var ofooter = new Ofooter()
 
 
+const oslide = new Oslide()
+const onav = new Onav()
+const ofooter = new Ofooter()
+const obutton = new Obutton()
