@@ -46,4 +46,11 @@ input.o-input.lightgray{
     border-color:  #DFDFDF !important;
 }
 
+
+input.o-input.rd{
+    border-radius:  20px !important;
+}
+
+
+
 }
