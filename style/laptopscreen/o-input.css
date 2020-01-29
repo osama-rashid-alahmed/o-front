@@ -14,4 +14,36 @@ input.o-input{
     
 }
 
+input.o-input.pink{
+    border-color: #FC0086 !important;
+}
+
+input.o-input.purple{
+    border-color: #5C2DF9 !important;
+}
+input.o-input.primary{
+    border-color: #1FB5F8 !important;
+}
+input.o-input.green{
+    border-color: #4EC541 !important;
+}
+input.o-input.lightgreen{
+    border-color: #26FB91 !important;
+}
+input.o-input.lightorange{
+    border-color: #FBAD26 !important;
+}
+input.o-input.red{
+    border-color: #F93636 !important;
+}
+input.o-input.dark{
+    border-color: #292929 !important;
+}
+input.o-input.gray{
+    border-color: #9C9E9F !important;
+}
+input.o-input.lightgray{
+    border-color:  #DFDFDF !important;
+}
+
 }
