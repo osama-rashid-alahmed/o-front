@@ -2,10 +2,11 @@
  
     o-slide{
         width: 250px;
-        height: 100%;
+        height: 100% ;
         background-color : #1FB5F8;
         position: fixed;
         right: 0px;
+        top: 0px;
         z-index: 1;
         overflow-y: auto;
         overflow-x: hidden;
