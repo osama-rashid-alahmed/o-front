@@ -2,17 +2,35 @@
 
 form.o-form {
     margin: 20px;
+    width: 20em;
+}
+
+form.o-form.center {
+
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+form.o-form .title{
+text-align: center;
 }
 
 input.o-input{
     padding: 10px;
-    width: 20em;
+    width: 100%;
     margin-top: 10px;
     border: 2.2px solid #1FB5F8;
     border-radius: 3px;
 
+  
+
     
 }
+
+input.o-input:focus {
+    outline: none;
+    }
 
 input.o-input.pink{
     border-color: #FC0086 !important;
