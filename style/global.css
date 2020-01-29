@@ -3,6 +3,7 @@
 @import "./laptopscreen/o-slide.css";
 @import "./laptopscreen/o-footer.css";
 @import "./laptopscreen/buttons.css";
+@import "./laptopscreen/o-input.css";
 
 *{
  font-family: 'Roboto', sans-serif;
