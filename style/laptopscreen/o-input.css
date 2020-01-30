@@ -12,6 +12,18 @@ form.o-form.center {
 
 }
 
+form.o-form.left {
+
+float: left;
+
+}
+
+form.o-form.right {
+
+    float: right;
+ 
+ }
+
 form.o-form .title{
 text-align: center;
 }
