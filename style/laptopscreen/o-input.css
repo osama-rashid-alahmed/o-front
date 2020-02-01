@@ -82,6 +82,13 @@ input.o-input.rd{
     border-radius:  20px !important;
 }
 
+
+
+
+/* iconinput here */
+
+
+
 div.iconinput{
     width: 100%;
     margin-top: 10px;
@@ -99,6 +106,39 @@ div.iconinput img{
 div.iconinput input{
     padding-left: 20%;
     width: 84%;
+}
+
+
+div.iconinput img.pink{
+    background-color: #FC0086 !important;
+}
+
+div.iconinput img.purple{
+    background-color: #5C2DF9 !important;
+}
+div.iconinput img.primary{
+    background-color: #1FB5F8 !important;
+}
+div.iconinput img.green{
+    background-color: #4EC541 !important;
+}
+div.iconinput img.lightgreen{
+    background-color: #26FB91 !important;
+}
+div.iconinput img.lightorange{
+    background-color: #FBAD26 !important;
+}
+div.iconinput img.red{
+    background-color: #F93636 !important;
+}
+div.iconinput img.dark{
+    background-color: #292929 !important;
+}
+div.iconinput img.gray{
+    background-color: #9C9E9F !important;
+}
+div.iconinput img.lightgray{
+    background-color:  #DFDFDF !important;
 }
 
 
