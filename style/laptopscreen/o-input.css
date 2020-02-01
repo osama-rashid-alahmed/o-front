@@ -35,6 +35,7 @@ input.o-input{
     border: 2.2px solid #1FB5F8;
     border-radius: 3px;
 
+
   
 
     
@@ -80,6 +81,8 @@ input.o-input.lightgray{
 input.o-input.rd{
     border-radius:  20px !important;
 }
+
+
 
 
 

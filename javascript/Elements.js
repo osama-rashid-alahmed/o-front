@@ -126,9 +126,28 @@ class Obutton {
 
 
 
+class Oinput{
+    constructor(){
+       this.createstyle()
+    }
+
+    createstyle = () =>{
+       var icon = $('div.inputicon input.o-input').attr('icon')
+       console.log(icon)
+       $('div.inputicon input.o-input').css({
+        "background-image": "url(" + icon + ")",
+        "background-position": "7px 7px",
+        "background-repeat": "no-repeat",
+       })
+    }
+}
+
+
+
 
 
 const oslide = new Oslide()
 const onav = new Onav()
 const ofooter = new Ofooter()
 const obutton = new Obutton()
+const oinput = new Oinput()
