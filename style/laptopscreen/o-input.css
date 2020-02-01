@@ -82,6 +82,16 @@ input.o-input.rd{
     border-radius:  20px !important;
 }
 
+div.iconinput img{
+    position: relative;
+    bottom: 2em;
+    left: 0.3em;
+}
+div.iconinput input{
+    padding-left: 10%;
+    width: 93%;
+}
+
 
 
 

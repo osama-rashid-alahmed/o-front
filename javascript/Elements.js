@@ -132,13 +132,16 @@ class Oinput{
     }
 
     createstyle = () =>{
-       var icon = $('div.inputicon input.o-input').attr('icon')
-       console.log(icon)
-       $('div.inputicon input.o-input').css({
-        "background-image": "url(" + icon + ")",
-        "background-position": "7px 7px",
-        "background-repeat": "no-repeat",
-       })
+    //    var icon = $('input.o-input.icon').attr('icon')
+    //    console.log(icon)
+       
+    //    $('input.o-input.icon').css({
+    //     "background-image": "url(" + $(this).attr('icon') + ")",
+    //     "background-position": "7px 7px",
+    //     "background-repeat": "no-repeat",
+    //     "padding-left" : "10%",
+    //     "width" : "93%"
+    //    })
     }
 }
 
