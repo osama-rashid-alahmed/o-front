@@ -12,13 +12,42 @@ button.bt{
  
 }
 
+button.bt.big{
+    width: 13em !important;
+    font-size: 17px;
+}
+
 button.bt.large{
-    width: 15% !important;
+    width: 20em !important;
+    font-size: 19px;
 }
 
 button.bt.huge{
-    width: 25% !important;
+    width: 25em !important;
+    font-size: 20px;
 }
+
+button.bt.left{
+    float: left !important;
+}
+button.bt.right{
+    float: right !important;
+}
+
+button.bt.littleleft{
+    float: left !important;
+    left: 15%;
+}
+button.bt.littleright{
+    float: right !important;
+    right: 15%;
+}
+
+button.bt.center{
+   left: 35% !important;
+    
+}
+
 
 button.bt.pink{
     background-color: #FC0086 ;

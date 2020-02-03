@@ -40,17 +40,29 @@ form.o-form .title{
 text-align: center;
 }
 
+
 input.o-input{
-    padding: 10px;
-    width: 100%;
+    padding: 10px 0px 10px 10px;
+    width: 96%;
     margin-top: 10px;
     border: 2.2px solid #1FB5F8;
     border-radius: 3px;
-
-
-  
-
+    font-size: 16px !important;
     
+}
+
+form.o-form.large input.o-input{
+width: 97% !important;
+}
+
+form.o-form.huge input.o-input{
+    width: 98% !important;
+    }
+
+
+
+form.o-form.full input.o-input{
+    width: 99% !important;
 }
 
 input.o-input:focus {
