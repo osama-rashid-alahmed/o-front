@@ -3,6 +3,7 @@
 form.o-form {
     margin: 20px;
     width: 20em;
+    height: auto;
 }
 
 form.o-form.large{
@@ -66,8 +67,10 @@ form.o-form.full input.o-input{
 }
 
 input.o-input:focus {
-    outline: none;
+    outline: auto;
     }
+
+ 
 
 input.o-input.pink{
     border-color: #FC0086 !important;
@@ -171,6 +174,42 @@ div.iconinput img.lightgray{
 }
 
 
+
+ /* any */
+
+ div.any{
+     width: 100%;
+     height: auto;
+     position: relative;
+ }
+
+ div.any span.icon{
+     margin: 0px;
+     position: relative;
+     float: left;
+     top:10px;
+     background-color: #292929;
+     width: 22.25%;
+     height: 40.7px;
+     border-radius: 3px 0px 0px 3px;
+     
+
+ }
+
+ div.any span.icon p{
+     padding: 0px;
+     margin: 0px;
+     text-align: center;
+     position: relative;
+     top: 25%;
+     
+ }
+
+ div.any input.o-input{
+  float: right;
+  width: 74%;
+  border-radius: 0px 3px 3px 0px;
+}
 
 
 
