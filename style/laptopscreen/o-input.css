@@ -166,7 +166,6 @@ div.iconinput input{
      
 
  }
-
  div.iconinput span.icon p{
      padding: 0px;
      margin: 0px;
@@ -175,6 +174,15 @@ div.iconinput input{
      top: 25%;
      
  }
+
+ div.iconinput span.icon img{
+     padding: 0px;
+     margin: 0px;
+     position: relative;
+     top: 20%;
+     left: 35%;
+ }
+
 
  div.iconinput input.o-input{
   float: right;
@@ -215,6 +223,7 @@ div.iconinput span.icon.lightgray{
     background-color:  #DFDFDF !important;
 
 }
+
 
 
 
