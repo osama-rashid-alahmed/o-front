@@ -4,6 +4,7 @@ form.o-form {
     margin: 20px;
     width: 20em;
     height: auto;
+    display: flow-root;
 }
 
 form.o-form.large{
