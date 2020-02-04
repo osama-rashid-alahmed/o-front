@@ -67,7 +67,7 @@ form.o-form.full input.o-input{
 }
 
 input.o-input:focus {
-    outline: auto;
+    outline: none;
     }
 
  
@@ -120,7 +120,7 @@ input.o-input.rd{
 /* iconinput here */
 
 
-
+/* 
 div.iconinput{
     width: 100%;
     margin-top: 10px;
@@ -171,19 +171,19 @@ div.iconinput img.gray{
 }
 div.iconinput img.lightgray{
     background-color:  #DFDFDF !important;
-}
+} */
 
 
 
  /* any */
 
- div.any{
+ div.iconinput{
      width: 100%;
      height: auto;
      position: relative;
  }
 
- div.any span.icon{
+ div.iconinput span.icon{
      margin: 0px;
      position: relative;
      float: left;
@@ -196,7 +196,7 @@ div.iconinput img.lightgray{
 
  }
 
- div.any span.icon p{
+ div.iconinput span.icon p{
      padding: 0px;
      margin: 0px;
      text-align: center;
@@ -205,11 +205,13 @@ div.iconinput img.lightgray{
      
  }
 
- div.any input.o-input{
+ div.iconinput input.o-input{
   float: right;
   width: 74%;
   border-radius: 0px 3px 3px 0px;
+  border-width: 1px !important;
 }
+
 
 
 
