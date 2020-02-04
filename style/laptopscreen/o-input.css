@@ -141,36 +141,7 @@ div.iconinput input{
 }
 
 
-div.iconinput img.pink{
-    background-color: #FC0086 !important;
-}
 
-div.iconinput img.purple{
-    background-color: #5C2DF9 !important;
-}
-div.iconinput img.primary{
-    background-color: #1FB5F8 !important;
-}
-div.iconinput img.green{
-    background-color: #4EC541 !important;
-}
-div.iconinput img.lightgreen{
-    background-color: #26FB91 !important;
-}
-div.iconinput img.lightorange{
-    background-color: #FBAD26 !important;
-}
-div.iconinput img.red{
-    background-color: #F93636 !important;
-}
-div.iconinput img.dark{
-    background-color: #292929 !important;
-}
-div.iconinput img.gray{
-    background-color: #9C9E9F !important;
-}
-div.iconinput img.lightgray{
-    background-color:  #DFDFDF !important;
 } */
 
 
@@ -190,7 +161,7 @@ div.iconinput img.lightgray{
      top:10px;
      background-color: #292929;
      width: 22.25%;
-     height: 40.7px;
+     height: 41px;
      border-radius: 3px 0px 0px 3px;
      
 
@@ -210,6 +181,39 @@ div.iconinput img.lightgray{
   width: 74%;
   border-radius: 0px 3px 3px 0px;
   border-width: 1px !important;
+}
+
+div.iconinput span.icon.pink{
+    background-color: #FC0086 !important;
+}
+
+div.iconinput span.icon.purple{
+    background-color: #5C2DF9 !important;
+}
+div.iconinput span.icon.primary{
+    background-color: #1FB5F8 !important;
+}
+div.iconinput span.icon.green{
+    background-color: #4EC541 !important;
+}
+div.iconinput span.icon.lightgreen{
+    background-color: #26FB91 !important;
+}
+div.iconinput span.icon.lightorange{
+    background-color: #FBAD26 !important;
+}
+div.iconinput span.icon.red{
+    background-color: #F93636 !important;
+}
+div.iconinput span.icon.dark{
+    background-color: #292929 !important;
+}
+div.iconinput span.icon.gray{
+    background-color: #9C9E9F !important;
+}
+div.iconinput span.icon.lightgray{
+    background-color:  #DFDFDF !important;
+
 }
 
 
