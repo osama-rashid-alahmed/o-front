@@ -151,8 +151,8 @@ div.iconinput input{
 
  div.iconinput{
      width: 100%;
-     height: auto;
      position: relative;
+     display: flow-root;
  }
 
  div.iconinput span.icon{
@@ -162,7 +162,7 @@ div.iconinput input{
      top:10px;
      background-color: #292929;
      width: 22.25%;
-     height: 41px;
+     height: 41px !important;
      border-radius: 3px 0px 0px 3px;
      
 
@@ -236,7 +236,7 @@ form.o-form.large div.iconinput input.o-input{
 
 form.o-form.large div.iconinput span.icon{
     width: 22.3% !important;
-     height: 40px;
+     /* height: 41px !important; */
     
 }
 
@@ -248,7 +248,7 @@ form.o-form.huge div.iconinput input.o-input{
 
 form.o-form.huge div.iconinput span.icon{
     width: 22.3% !important;
-     height: 40px;
+     /* height: 41px !important; */
     
 }
 
@@ -260,8 +260,23 @@ form.o-form.full div.iconinput input.o-input{
 
 form.o-form.full div.iconinput span.icon{
     width: 22.3% !important;
-     height: 40px;
+     /* height: 41px !important; */
     
+}
+
+/* fixing the span.icon img */
+
+
+form.o-form.large div.iconinput span.icon img{
+    left: 40%;
+}
+
+form.o-form.huge div.iconinput span.icon img{
+    left: 43%;
+}
+
+form.o-form.full div.iconinput span.icon img{
+    left: 46%;
 }
 
 
