@@ -228,6 +228,17 @@ div.iconinput span.icon.lightgray{
 
 
 
+/* added form sizes iconinput */
+
+form.o-form.large div.iconinput input.o-input{
+    width: 75.2% !important;
+}
+
+form.o-form.large div.iconinput span.icon{
+    width: 22.3% !important;
+     height: 40px;
+    ;
+}
 
 
 }
