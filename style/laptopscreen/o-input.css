@@ -260,6 +260,7 @@ form.o-form.full div.iconinput input.o-input{
 
 form.o-form.full div.iconinput span.icon{
     width: 22.3% !important;
+    left: 1px;
      /* height: 41px !important; */
     
 }
