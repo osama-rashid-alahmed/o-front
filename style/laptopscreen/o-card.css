@@ -15,6 +15,52 @@ div.o-card.right{
     float: right;
 }
 
+
+
+div.o-card.primary{
+    background-color: #1FB5F8 !important;
+}
+div.o-card.lightblue{
+    background-color: #1FE9F8 !important;
+
+}
+div.o-card.lightgreen{
+    background-color: #1FF8A7 !important;
+}
+div.o-card.lightyellow{
+    background-color: #FFFF56 !important;
+    color: #2B2B2B !important;
+
+}
+div.o-card.orange{
+    background-color: #F8B71F !important;
+    
+}
+div.o-card.red{
+    background-color: #FE3A3A !important;
+}
+div.o-card.pink{
+    background-color: #FF51B4 !important;
+}
+div.o-card.dark{
+    background-color: #292929 !important;
+    color: #d3cdcd;
+
+}
+div.o-card.gray{
+    background-color: #9C9E9F !important;
+    color: #2B2B2B !important;
+}
+
+div.o-card.lightgray{
+    background-color: #DFDFDF !important;
+    color: #2B2B2B !important;
+
+}
+
+
+
+/* card sizes */
 div.o-card.x1{
 width: 24.9%;
 
