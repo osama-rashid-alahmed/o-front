@@ -7,14 +7,22 @@ float: left;
 margin: 0.5px;
 }
 
+div.o-card.left{
+float: left;
+}
+
+div.o-card.right{
+    float: right;
+}
+
 div.o-card.x1{
-width: 19.40%;
+width: 24.9%;
 
 
 }
 
 div.o-card.x2{
-    width: 40%;
+    width: 49.9%;
     
     
     }
