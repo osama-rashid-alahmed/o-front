@@ -4,14 +4,16 @@
 @import "./laptopscreen/o-footer.css";
 @import "./laptopscreen/buttons.css";
 @import "./laptopscreen/o-input.css";
+@import "laptopscreen/o-card.css";
 
 *{
  font-family: 'Roboto', sans-serif;
  
 }
 
-body{
+html , body{
     width: 100%;
+    height: 100%;
     margin: 0px;
     padding: 0px;
     border: 0;
