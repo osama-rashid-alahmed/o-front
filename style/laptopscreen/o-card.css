@@ -4,7 +4,7 @@
 div.o-card{
 background-color: #1FB5F8;
 float: left;
-margin: 0.5px;
+margin: 0.7px;
 position: relative;
 }
 
@@ -63,13 +63,13 @@ div.o-card.lightgray{
 
 /* card sizes */
 div.o-card.x1{
-width: 24.9%;
+width: 24.89%;
 
 
 }
 
 div.o-card.x2{
-    width: 49.9%;
+    width: 49.89%;
     
     
     }
