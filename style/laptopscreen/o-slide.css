@@ -10,6 +10,8 @@
         z-index: 1;
         overflow-y: auto;
         overflow-x: hidden;
+        table-layout: fixed;
+        
     }
 
 
@@ -89,24 +91,27 @@
         float: left !important;
     }
 
-   o-slide o-imager{
+   o-slide div.image-container{
         width: 250px;
         position: relative;
-        height: 300px;
+        height: 200px;
+        display: flow-root;
+        left: 0px;
+        right: 0px;
+        
         
     }
 
-    o-slide o-imager img.header{
+    o-slide div.image-container img.image-header{
         width: 250px;
         margin-bottom: 5px;
     }
-    o-slide o-imager h1 ,
-    o-slide o-imager h2,
-    o-slide o-imager h3,
-    o-slide o-imager h4,
-    o-slide o-imager h5,
-    o-slide o-imager h6,
-    o-slide o-imager p{
+    o-slide div.image-container h1 ,
+    o-slide div.image-container h2,
+    o-slide div.image-container h3,
+    o-slide div.image-container h4,
+    o-slide div.image-container h5,
+    o-slide div.image-container h6{
         position: absolute;
         color: white;
         left: 18%;
@@ -114,8 +119,38 @@
         
     }
 
+    o-slide div.image-container img.image-bio{
+        position: absolute;
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        margin-left: 35%;
+        top: 20px;
+        box-shadow: 1px 8px 8px #000000 ;
+        
+    }
+
+    o-slide div.image-container p.text-bio{
+      position: absolute;
+      text-align: center;
+      width: 100%;
+      left: 0px;
+      right: 0px;
+      color: #ffff;
+      top: 60%;
+      margin-left: 10px;
+
+        
+    }
+
     o-slide ul.list{
         margin-top: 20px;
+        width: 250px;
+        padding: 0px;
+        position: relative;
+        left: 0px;
+        right: 0px;
+
     }
 
  
@@ -156,12 +191,13 @@
         display: inline-block;
         font-size: 25px;
         border-bottom: 1px groove gray;
-        width: 250px;
+        width: 90%;
         position: relative;
         margin-bottom: 10px;
         padding-bottom: 10px;
-        right: 39px;
-        padding-left: 30px;
+        right: 0px;
+        left: 0px;
+        padding-left: 20px;
      }
 
 
