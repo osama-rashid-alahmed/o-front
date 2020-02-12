@@ -11,7 +11,7 @@ class actionstyles {
 
 
 // set up the bottom +-=2 animation
-    createbottomstyle = (any)=>{
+    ho_top = (any)=>{
       $(any).on({
         mouseenter : function(){
             $(this).animate({
@@ -29,6 +29,29 @@ class actionstyles {
 
          }
       })
+    }
+
+
+    ho_right = (any) =>{
+
+        $(any).on({
+            mouseenter : function(){
+                $(this).animate({
+                    "left" : "+=10px",
+                    
+                },50)
+                // $(this).addClass("shadow")
+             },
+    
+             mouseleave : function(){
+                 $(this).animate({
+                    "left" : "-=10px"
+                 },50)
+                //  $(this).removeClass("shadow")
+    
+             }
+          })
+     
     }
 }
 
@@ -49,7 +72,7 @@ class Onav {
       
         // create the animation
        var actionstyles1 = new actionstyles()
-       actionstyles1.createbottomstyle("o-nav ul li , o-nav ul li a ,o-nav o-icons img")
+       actionstyles1.ho_top("o-nav ul li , o-nav ul li a ,o-nav o-icons img")
        actionstyles1 = null
 
 
@@ -84,9 +107,29 @@ class Oslide{
 
       // create the animation
       var actionstyles1 = new actionstyles()
-      actionstyles1.createbottomstyle("o-slide o-icons img , o-slide ul.list li")
+      actionstyles1.ho_top("o-slide o-icons img , o-slide ul.list.ho-top li")
+      actionstyles1.ho_right(" o-slide ul.list.ho-right li")
       actionstyles1 = null
 
+
+      
+    //   $("o-slide ul.list.ho-right li").on({
+    //     mouseenter : function(){
+    //         $(this).animate({
+    //             "left" : "+=10px",
+                
+    //         },50)
+    //         // $(this).addClass("shadow")
+    //      },
+
+    //      mouseleave : function(){
+    //          $(this).animate({
+    //             "left" : "-=10px"
+    //          },50)
+    //         //  $(this).removeClass("shadow")
+
+    //      }
+    //   })
 
       
 
@@ -105,7 +148,7 @@ class Ofooter{
 
     createstyle = () =>{
         var actionstyles1 = new actionstyles()
-        actionstyles1.createbottomstyle("o-footer div ul.list li")
+        actionstyles1.ho_top("o-footer div ul.list li")
         actionstyles1 = null
     }
 
@@ -119,8 +162,10 @@ class Obutton {
 
     createstyle = () =>{
         var actionstyles1 = new actionstyles()
-        actionstyles1.createbottomstyle("button.bt")
+        actionstyles1.ho_top("button.bt")
         actionstyles1 = null
+
+
     }
 }
 

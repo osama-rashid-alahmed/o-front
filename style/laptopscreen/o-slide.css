@@ -211,10 +211,9 @@
 
      
      
-     o-slide ul.list.br li {
+     o-slide ul.list li {
         display: inline-block;
         font-size: 25px;
-        border-bottom: 1px groove gray;
         width: 90%;
         position: relative;
         margin-bottom: 10px;
@@ -224,7 +223,14 @@
         padding-left: 20px;
      }
 
-     
+     o-slide ul.list.br li{
+        border-bottom: 1px groove gray;
+
+     }
+
+
+
+
 
 
 
