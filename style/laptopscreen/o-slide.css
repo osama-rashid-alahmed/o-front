@@ -102,6 +102,30 @@
         
     }
 
+    o-slide .text-logo{
+        margin: 3px 0px 15px 20px ;
+        text-align: left;
+        position: relative;
+        right: 0px;
+        width: 250px;
+    }
+    o-slide .text-logo.center{
+        text-align: center;
+        margin: 3px 0px 15px 0px;
+    }
+
+    o-slide .text-logo.left{
+        text-align: left !important;
+    }
+    o-slide .text-logo.right{
+        text-align: right !important;
+        margin: 3px 0px 15px 0px !important;
+        right: 20px;
+    }
+
+
+  
+
     o-slide div.image-container img.image-header{
         width: 250px;
         margin-bottom: 5px;
