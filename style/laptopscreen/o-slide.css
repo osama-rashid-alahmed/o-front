@@ -211,7 +211,7 @@
 
      
      
-     o-slide ul.list li {
+     o-slide ul.list.br li {
         display: inline-block;
         font-size: 25px;
         border-bottom: 1px groove gray;
@@ -223,6 +223,8 @@
         left: 0px;
         padding-left: 20px;
      }
+
+     
 
 
 
