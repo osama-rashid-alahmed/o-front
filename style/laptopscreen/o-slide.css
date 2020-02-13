@@ -223,6 +223,10 @@
         padding-left: 20px;
      }
 
+     o-slide ul.list li.ho-right-class {
+      background-color: rgba(0, 0, 0, .3);
+     }
+
      o-slide ul.list.br li{
         border-bottom: 1px groove gray;
 

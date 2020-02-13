@@ -18,35 +18,40 @@ class actionstyles {
                 "bottom" : "+=2px",
                 
             },100)
-            // $(this).addClass("shadow")
          },
 
          mouseleave : function(){
              $(this).animate({
                 "bottom" : "-=2px"
              },100)
-            //  $(this).removeClass("shadow")
 
          }
       })
     }
 
 
-    ho_right = (any) =>{
+    
+
+
+    ho_right = (any , styleclass) =>{
 
         $(any).on({
             mouseenter : function(){
                 $(this).animate({
-                    "left" : "+=10px",
+                    "padding-left" : "+=10px",
                     
-                },50)
+                },200)
+                $(this).addClass(styleclass)
+
                 // $(this).addClass("shadow")
              },
     
              mouseleave : function(){
                  $(this).animate({
-                    "left" : "-=10px"
-                 },50)
+                    "padding-left" : "-=10px"
+                 },200)
+                 $(this).removeClass(styleclass)
+
                 //  $(this).removeClass("shadow")
     
              }
@@ -108,7 +113,7 @@ class Oslide{
       // create the animation
       var actionstyles1 = new actionstyles()
       actionstyles1.ho_top("o-slide o-icons img , o-slide ul.list.ho-top li")
-      actionstyles1.ho_right(" o-slide ul.list.ho-right li")
+      actionstyles1.ho_right(" o-slide ul.list.ho-right li" , "ho-right-class")
       actionstyles1 = null
 
 
