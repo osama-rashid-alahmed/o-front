@@ -256,6 +256,24 @@
 
 
 
+     /* o-slide basic ul style list */
+
+
+    ul.ho-color li{
+        font-size: 20px !important;
+        transition: .2s all;
+    }
+
+    ul.ho-color li:hover{
+        background-color: rgba(0, 0, 0, 0.1);
+        transition-delay: 0s;
+    }
+
+
+
+
+
+
 
 
 
