@@ -162,6 +162,12 @@
         
     }
 
+    o-slide.left div.image-container img.image-bio{
+
+        margin-left: 30%;
+
+    }
+
     o-slide div.image-container p.text-bio{
       position: absolute;
       text-align: center;
@@ -174,6 +180,13 @@
 
         
     }
+
+    o-slide div.image-container p.text-bio{
+
+        margin-left: 5px;
+  
+          
+      }
 
     o-slide ul.list{
         margin-top: 20px;
