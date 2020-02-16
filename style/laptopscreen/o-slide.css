@@ -5,13 +5,21 @@
         height: 100% ;
         background-color : #1FB5F8;
         position: fixed;
-        right: 0px;
         top: 0px;
         z-index: 1;
         overflow-y: auto;
         overflow-x: hidden;
         table-layout: fixed;
         
+    }
+
+    o-slide.right{
+        right: 0px;
+
+    }
+
+    o-slide.left{
+        left:0px
     }
 
 
