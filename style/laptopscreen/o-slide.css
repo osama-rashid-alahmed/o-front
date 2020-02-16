@@ -216,19 +216,20 @@
         font-size: 25px;
         width: 90%;
         position: relative;
-        margin-bottom: 10px;
+        margin-bottom: 0px;
         padding-bottom: 10px;
+        padding-top: 10px;
         right: 0px;
         left: 0px;
         padding-left: 20px;
      }
 
      o-slide ul.list li.ho-right-class {
-      background-color: rgba(0, 0, 0, .3);
+      background-color: rgba(0, 0, 0, 0.1);
      }
 
      o-slide ul.list.br li{
-        border-bottom: 1px groove gray;
+        border-bottom: 0.5px groove rgba(0, 0, 0, 0.3);
 
      }
 
