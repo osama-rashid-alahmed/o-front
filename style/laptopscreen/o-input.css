@@ -461,4 +461,47 @@ input[type = radio].normal.pink:checked:after {
     background-color: #FC0086;
 
 }
+
+input[type = radio].normal.purple:checked:after {
+
+    background-color: #5C2DF9;
+
+}
+
+input[type = radio].normal.primary:checked:after {
+
+    background-color: #1FB5F8;
+
+}
+
+input[type = radio].normal.green:checked:after {
+
+    background-color: #4EC541;
+
+}
+
+input[type = radio].normal.lightgreen:checked:after {
+
+    background-color: #26FB91;
+
+}
+
+input[type = radio].normal.lightorange:checked:after {
+
+    background-color: #FBAD26;
+
+}
+
+input[type = radio].normal.red:checked:after {
+
+    background-color: #F93636;
+
+}
+input[type = radio].normal.dark:checked:after {
+
+    background-color: #292929;
+
+}
+
+
 }
