@@ -421,6 +421,20 @@ input[type = checkbox].normal.dark:checked {
 
 /* radio button */
 
+div.formrad{
+    display: flow-root;
+    float: left;
+    margin: 10px;
+}
+
+div.formrad label{
+position: relative;
+text-align: center;
+bottom: 7px;
+}
+
+
+
 input[type = radio].normal {
 	-webkit-appearance: none;
 	background-color: #fafafa;
