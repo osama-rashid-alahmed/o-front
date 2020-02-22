@@ -170,7 +170,29 @@ class Obutton {
         actionstyles1.ho_top("button.bt")
         actionstyles1 = null
 
+       this.dropdown()
 
+
+
+    }
+
+    dropdown = () =>{
+        $('div.dropdown div.drop-list').hide()
+
+        $("div.dropdown button.drop-button").click(function(){
+             
+            var droplist = $("div.dropdown div.drop-list")
+            for(var i = 0 ; i < droplist.length ; i++){
+               var droplist2 = droplist[i];
+                if(droplist2.is(":hidden")){
+                    droplist2.show()
+                }else{
+                    alert("shit")
+                    droplist2.hide()
+
+                }
+            }
+        })
     }
 }
 

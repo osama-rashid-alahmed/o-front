@@ -518,4 +518,30 @@ input[type = radio].normal.dark:checked:after {
 }
 
 
+
+/* dropdown button */
+
+div.dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+div.dropdown div.drop-list{
+    background-color: #ffffff;
+    width: 200px;
+    display: flow-root;
+    margin: 0px;
+    font-size: 17px;
+
+}
+
+div.dropdown div.drop-list a{
+    text-decoration: none;
+    color: inherit;
+    padding: 5px;
+    position: relative !important;
+    float: left;
+    width: 100%;
+}
+
 }
