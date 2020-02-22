@@ -184,11 +184,13 @@ class Obutton {
             var droplist = $("div.dropdown div.drop-list")
             for(var i = 0 ; i < droplist.length ; i++){
                var droplist2 = droplist[i];
-                if(droplist2.is(":hidden")){
-                    droplist2.show()
+                if($(droplist2).is(":hidden")){
+                    $(droplist2).show()
+                    break;
                 }else{
                     alert("shit")
-                    droplist2.hide()
+                    $(droplist2).hide()
+                    break
 
                 }
             }
