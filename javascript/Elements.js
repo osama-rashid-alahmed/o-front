@@ -177,24 +177,36 @@ class Obutton {
     }
 
     dropdown = () =>{
-        $('div.dropdown div.drop-list').hide()
+         $("div.dropdown div.drop-list").hide()
+        $("div.dropdown").each(function(){
+        var any =  $(this).children("div.drop-list")
+        $(this).children("button.drop-button").click(function(){
+           
+            if($(any).is(":hidden")){
+                $(any).show()
+            }else{
+                $(any).hide()
 
-        $("div.dropdown button.drop-button").click(function(){
-             
-            var droplist = $("div.dropdown div.drop-list")
-            for(var i = 0 ; i < droplist.length ; i++){
-               var droplist2 = droplist[i];
-                if($(droplist2).is(":hidden")){
-                    $(droplist2).show()
-                    break;
-                }else{
-                    alert("shit")
-                    $(droplist2).hide()
-                    break
-
-                }
             }
         })
+     });
+
+        // $("div.dropdown button.drop-button").click(function(){
+             
+        //     var droplist = $("div.dropdown div.drop-list")
+        //     for(var i = 0 ; i < droplist.length ; i++){
+        //        var droplist2 = droplist[i];
+        //         if($(droplist2).is(":hidden")){
+                   
+        //             $(droplist2).show()
+                    
+        //         }else{
+        //             $(droplist2).hide()
+                    
+
+        //         }
+        //     }
+        // })
     }
 }
 
