@@ -528,7 +528,7 @@ div.dropdown{
 
 div.dropdown div.drop-list{
     background-color: #ffffff;
-    width: 200px;
+    width: 150px;
     display: flow-root;
     margin: 0px;
     font-size: 17px;
@@ -540,10 +540,46 @@ div.dropdown div.drop-list.primary{
 
 }
 
+div.dropdown div.drop-list.pink{
+    background-color: #FC0086 !important;
+
+}
+
+div.dropdown div.drop-list.purple{
+    background-color: #5C2DF9 !important;
+
+}
+
+div.dropdown div.drop-list.green{
+    background-color: #4EC541 !important;
+
+}
+
+div.dropdown div.drop-list.lightgreen{
+    background-color: #26FB91 !important;
+
+}
+
+div.dropdown div.drop-list.lightorange{
+    background-color: #FBAD26 !important;
+
+}
+
+div.dropdown div.drop-list.red{
+    background-color: #F93636 !important;
+
+}
+
+div.dropdown div.drop-list.dark{
+    background-color: #292929 !important;
+    color: #ffffff;
+
+}
+
 div.dropdown div.drop-list a{
     text-decoration: none;
     color: inherit;
-    padding: 5px 0px 5px 5px;
+    padding: 7px 0px 7px 5px;
     position: relative !important;
     width: 100%;
     display: inline-block;
