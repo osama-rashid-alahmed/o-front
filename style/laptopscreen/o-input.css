@@ -532,16 +532,30 @@ div.dropdown div.drop-list{
     display: flow-root;
     margin: 0px;
     font-size: 17px;
+    position: absolute;
+    padding-right: 5px;
+}
+div.dropdown div.drop-list.primary{
+    background-color: #1FB5F8 !important;
 
 }
 
 div.dropdown div.drop-list a{
     text-decoration: none;
     color: inherit;
-    padding: 5px;
+    padding: 5px 0px 5px 5px;
     position: relative !important;
-    float: left;
     width: 100%;
+    display: inline-block;
+    
+    
+    
 }
+
+
+
+
+
+
 
 }

@@ -58,6 +58,31 @@ class actionstyles {
           })
      
     }
+
+
+    ho_color = (any) =>{
+
+        $(any).on({
+            mouseenter : function(){
+                $(this).css({
+                    "background-color" : "rgb(0, 0, 0, 0.1)",
+                    
+                })
+
+                // $(this).addClass("shadow")
+             },
+    
+             mouseleave : function(){
+                 $(this).css({
+                    "background-color" : "inherit"
+                 })
+
+                //  $(this).removeClass("shadow")
+    
+             }
+          })
+    
+    }
 }
 
 class Onav {
@@ -167,7 +192,9 @@ class Obutton {
 
     createstyle = () =>{
         var actionstyles1 = new actionstyles()
-        actionstyles1.ho_top("button.bt")
+        actionstyles1.ho_top("button.bt , div.dropdown div.drop-list.ho-top a")
+        actionstyles1.ho_color(" div.dropdown div.drop-list.ho-color a")
+
         actionstyles1 = null
 
        this.dropdown()
@@ -177,7 +204,7 @@ class Obutton {
     }
 
     dropdown = () =>{
-         $("div.dropdown div.drop-list").hide()
+        $("div.dropdown div.drop-list").hide()
         $("div.dropdown").each(function(){
         var any =  $(this).children("div.drop-list")
         $(this).children("button.drop-button").click(function(){
