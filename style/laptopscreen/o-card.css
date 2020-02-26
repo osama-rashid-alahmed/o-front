@@ -7,6 +7,7 @@ float: left;
 margin: 0.7px;
 position: relative;
 overflow: hidden;
+display: flow-root;
 }
 
 div.o-card.left{
@@ -17,7 +18,7 @@ div.o-card.right{
     float: right;
 }
 
-div.o-card.marg-none{
+div.o-card.full{
 margin: 0;
 }
 
@@ -100,9 +101,25 @@ div.o-card.yfull{
     height: 100%;
 }
 
-div.o-card img{
+div.o-card img.full{
 width: 100%;
+height: 100%;
+position: relative;
+margin: auto;
+
 }
+
+div.o-card img{
+width: 97%;
+height: 97%;
+position: relative;
+margin-left: auto;
+margin-right: auto;
+display: block;
+top: 2px;
+}
+
+
 
 
 }
