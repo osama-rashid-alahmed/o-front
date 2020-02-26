@@ -6,6 +6,7 @@ background-color: #1FB5F8;
 float: left;
 margin: 0.7px;
 position: relative;
+overflow: hidden;
 }
 
 div.o-card.left{
@@ -14,6 +15,10 @@ float: left;
 
 div.o-card.right{
     float: right;
+}
+
+div.o-card.marg-none{
+margin: 0;
 }
 
 
@@ -84,6 +89,19 @@ div.o-card.y1{
 div.o-card.y2{
     height: 70%;
     
+}
+
+
+div.o-card.xfull{
+    width: 100%;
+}
+
+div.o-card.yfull{
+    height: 100%;
+}
+
+div.o-card img{
+width: 100%;
 }
 
 
