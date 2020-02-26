@@ -14,44 +14,7 @@
         height: auto;
         float: right;
     }
-    o-nav.primary{
-        background-color: #1FB5F8 !important;
-    }
-    o-nav.lightblue{
-        background-color: #1FE9F8 !important;
-
-    }
-    o-nav.lightgreen{
-        background-color: #1FF8A7 !important;
-    }
-    o-nav.lightyellow{
-        background-color: #FFFF56 !important;
-        color: #2B2B2B !important;
-
-    }
-    o-nav.orange{
-        background-color: #F8B71F !important;
-        
-    }
-    o-nav.red{
-        background-color: #FE3A3A !important;
-    }
-    o-nav.pink{
-        background-color: #FF51B4 !important;
-    }
-    o-nav.dark{
-        background-color: #292929 !important;
-    }
-    o-nav.gray{
-        background-color: #9C9E9F !important;
-        color: #2B2B2B !important;
-    }
-    
-    o-nav.lightgray{
-        background-color: #DFDFDF !important;
-        color: #2B2B2B !important;
-
-    }
+  
 /* 
  o- nav size
      */

@@ -50,38 +50,6 @@ button.bt.center{
 
 
 
-button.bt.pink{
-    background-color: #FC0086 ;
-}
-
-button.bt.purple{
-    background-color: #5C2DF9 ;
-}
-button.bt.primary{
-    background-color: #1FB5F8 ;
-}
-button.bt.green{
-    background-color: #4EC541 ;
-}
-button.bt.lightgreen{
-    background-color: #26FB91 ;
-}
-button.bt.lightorange{
-    background-color: #FBAD26 ;
-}
-button.bt.red{
-    background-color: #F93636 ;
-}
-button.bt.dark{
-    background-color: #292929;
-}
-button.bt.gray{
-    background-color: #9C9E9F;
-}
-button.bt.lightgray{
-    background-color:  #DFDFDF;
-}
-
 button.bt.rd {
     border-radius: 30px !important;
 }
@@ -95,75 +63,6 @@ button.bt.sh {
 /* this is the border buttons style */
 
 
-
-button.bt.bo{
-    background-color: transparent;
-}
-
-button.bt.bo.pink{
-    border: 2px solid #FC0086; 
-    color: #FC0086;
-
-}
-
-button.bt.bo.purple{
-    border: 2px solid #5C2DF9; 
-    color: #5C2DF9;
-
-}
-
-button.bt.bo.primary{
-    border: 2px solid #1FB5F8; 
-    color: #1FB5F8;
-
-}
-
-
-button.bt.bo.green{
-    border: 2px solid #4EC541; 
-    color: #4EC541;
-
-}
-
-
-button.bt.bo.lightgreen{
-    border: 2px solid #26FB91; 
-    color: #26FB91;
-
-}
-
-
-button.bt.bo.lightorange{
-    border: 2px solid #FBAD26; 
-    color: #FBAD26;
-
-}
-
-
-button.bt.bo.red{
-    border: 2px solid #F93636; 
-    color: #F93636;
-
-}
-
-
-button.bt.bo.dark{
-    border: 2px solid #292929; 
-    color: #292929;
-
-}
-
-button.bt.bo.gray{
-    border: 2px solid #9C9E9F; 
-    color: #9C9E9F;
-
-}
-
-button.bt.bo.lightgray{
-    border: 2px solid #DFDFDF; 
-    color: #DFDFDF;
-
-}
 
 
 

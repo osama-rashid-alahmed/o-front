@@ -21,3 +21,111 @@ html , body{
     overflow-y: auto;
     
 }
+
+.pink:not(input){
+    background-color: #FC0086 !important;
+    color: #ffffff ;
+
+}
+
+.purple:not(input){
+    background-color: #5C2DF9 !important;
+    color: #ffffff ;
+
+}
+.primary:not(input){
+    background-color: #1FB5F8 !important;
+    color: #ffffff ;
+
+}
+.green:not(input){
+    background-color: #4EC541 !important;
+    color: #ffffff ;
+
+}
+.lightgreen:not(input){
+    background-color: #26FB91 !important;
+    color: #ffffff ;
+
+}
+.lightorange:not(input){
+    background-color: #FBAD26 ;
+    color: #ffffff;
+
+}
+.red:not(input){
+    background-color: #F93636 !important;
+    color: #ffffff ;
+
+}
+.dark:not(input){
+    background-color: #292929 !important;
+    color: #ffffff;
+}
+.gray:not(input){
+    background-color: #9C9E9F !important;
+    color: #292929;
+}
+.lightgray:not(input){
+    background-color:  #DFDFDF !important;
+    color: #292929;
+}
+
+
+
+
+.font-pink{
+    color: #FC0086 !important;
+
+}
+
+.font-purple{
+    color: #5C2DF9 !important;
+
+}
+
+
+.font-primary{
+    color: #1FB5F8 !important;
+
+}
+
+
+.font-green{
+    color: #4EC541 !important;
+
+}
+
+
+.font-lightgreen{
+    color: #26FB91 !important;
+
+}
+
+
+.font-lightorange{
+    color: #FBAD26 !important;
+
+}
+
+
+.font-red{
+    color: #F93636 !important;
+
+}
+
+.font-dark{
+    color: #292929 !important;
+
+}
+
+.font-gray{
+    color: #9C9E9F !important;
+
+}
+
+.font-lightgray{
+    color: #DFDFDF !important;
+
+}
+
