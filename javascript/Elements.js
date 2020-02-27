@@ -274,14 +274,37 @@ class Ocard{
      }
 
      ho_image = () =>{
-       $('div.o-card img').on({
-           mouseenter:function(){
-               $(this).addClass("ho-image")
-           },
-           mouseleave:function(){
-               $(this).removeClass("ho-image")
-           }
-       })
+    //    $('div.o-card img').on({
+    //        mouseenter:function(){
+    //            $(this).addClass("ho-image")
+    //        },
+    //        mouseleave:function(){
+    //            $(this).removeClass("ho-image")
+    //        }
+    //    })
+    $('div.container-list div.o-card h2 , div.container-list div.o-card p').hide()
+    $("div.container-list div.o-card").each(function(){
+        var any1 = $(this).children('img')
+        var any2 = $(this).children('h2')
+        var any3 = $(this).children('p')
+
+        $(this).on({
+            mouseenter: function(){
+                $(any1).addClass("ho-image")
+                 $(any2).show(200)
+                 $(any3).show(200)
+                
+
+            },
+            mouseleave: function(){
+                $(any1).removeClass("ho-image")
+                $(any2).hide(200)
+                $(any3).hide(200)
+
+            }
+        })
+
+    })
      }
 
 
