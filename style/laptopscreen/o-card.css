@@ -84,5 +84,17 @@ div.o-card img.rd{
 }
 
 
+div.container-list{
+    width: 90%;
+    height: 100%;
+    margin: 0 5%;
+}
+
+div.container-list div.o-card{
+
+    margin:  20px 50px;
+}
+
+
 
 }
