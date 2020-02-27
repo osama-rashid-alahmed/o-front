@@ -260,6 +260,36 @@ class Oinput{
 
 
 
+class Ocard{
+
+    constructor(){
+        this.createstyle()
+
+     }
+
+
+ 
+     createstyle = () =>{
+        this.ho_image()
+     }
+
+     ho_image = () =>{
+       $('div.o-card img').on({
+           mouseenter:function(){
+               $(this).addClass("ho-image")
+           },
+           mouseleave:function(){
+               $(this).removeClass("ho-image")
+           }
+       })
+     }
+
+
+
+}
+
+
+
 
 
 const oslide = new Oslide()
@@ -267,3 +297,4 @@ const onav = new Onav()
 const ofooter = new Ofooter()
 const obutton = new Obutton()
 const oinput = new Oinput()
+const ocard = new Ocard()

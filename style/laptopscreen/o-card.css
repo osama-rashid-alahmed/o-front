@@ -75,7 +75,13 @@ position: relative;
 margin-left: auto;
 margin-right: auto;
 display: block;
-top: 2px;
+top: 2.5px;
+transform: scale(1);
+transition: all 1s;
+}
+
+div.o-card img.ho-image{
+ transform: scale(1.5);
 }
 
 div.o-card img.rd{
@@ -93,6 +99,7 @@ div.container-list{
 div.container-list div.o-card{
 
     margin:  20px 50px;
+
 }
 
 
