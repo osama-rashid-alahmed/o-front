@@ -291,16 +291,23 @@ class Ocard{
         $(this).on({
             mouseenter: function(){
                 $(any1).addClass("ho-image")
-                 $(any2).show(200)
-                 $(any3).show(200)
+                 $(any2).slideDown(150 , function(){
+
+                 })
+                 $(any3).slideDown(400 , function(){
+
+                 })
                 
 
             },
             mouseleave: function(){
                 $(any1).removeClass("ho-image")
-                $(any2).hide(200)
-                $(any3).hide(200)
+                 $(any2).slideUp(150 , function(){
 
+                 })
+                 $(any3).slideUp(400 , function(){
+                     
+                 })
             }
         })
 
