@@ -80,16 +80,20 @@ transform: scale(1);
 transition: all 1s;
 }
 
+div.o-card img.cover{
+    object-fit: cover;
+}
+
 div.container-list div.o-card h2{
     position: absolute;
-    z-index: 10;
+    z-index: 1;
     margin: 30px;
     
 }
 
 div.container-list div.o-card p{
     position: absolute;
-    z-index: 10;
+    z-index: 1;
     margin: 80px 40px;
     top: 30px;
 }
