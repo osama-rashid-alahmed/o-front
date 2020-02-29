@@ -10,6 +10,53 @@ overflow: hidden;
 display: flow-root;
 }
 
+
+div.o-card.head button{
+    position: absolute !important;
+    z-index: 1;
+}
+
+div.o-card.head h1,
+div.o-card.head h2,
+div.o-card.head h3,
+div.o-card.head h4,
+div.o-card.head p{
+position: absolute;
+z-index: 1;
+}
+
+div.o-card.head h1.center,
+div.o-card.head h2.center,
+div.o-card.head h3.center,
+div.o-card.head h4.center,
+div.o-card.head p.center{
+    text-align: center;
+    width: 100%;
+    top: 35%;
+}
+
+div.o-card.head h1.center-bottom,
+div.o-card.head h2.center-bottom,
+div.o-card.head h3.center-bottom,
+div.o-card.head h4.center-bottom,
+div.o-card.head p.center-bottom{
+    text-align: center;
+    width: 100%;
+    top: 50%;
+}
+
+
+div.o-card.head h1.center-top,
+div.o-card.head h2.center-top,
+div.o-card.head h3.center-top,
+div.o-card.head h4.center-top,
+div.o-card.head p.center-top{
+    text-align: center;
+    width: 100%;
+    top: 20%;
+}
+
+
 div.o-card.left{
 float: left;
 }
