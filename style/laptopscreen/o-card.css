@@ -11,11 +11,33 @@ display: flow-root;
 }
 
 
-div.o-card.head button{
+div.o-card.head *:not(img){
+    /* float: left; */
     position: absolute !important;
     z-index: 1;
+    width: 100%;
+    /* left: 47% !important; */
+
 }
 
+div.o-card.head  .center{
+    text-align: center;
+    top: 35%;
+
+}
+
+div.o-card.head .center-bottom{
+    text-align: center;
+    top: 50%;
+
+}
+
+div.o-card.head .center-top{
+    text-align: center;
+    top: 20%;
+
+}
+/* 
 div.o-card.head h1,
 div.o-card.head h2,
 div.o-card.head h3,
@@ -54,7 +76,7 @@ div.o-card.head p.center-top{
     text-align: center;
     width: 100%;
     top: 20%;
-}
+} */
 
 
 div.o-card.left{
