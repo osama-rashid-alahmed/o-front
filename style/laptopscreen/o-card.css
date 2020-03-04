@@ -11,7 +11,7 @@ display: flow-root;
 }
 
 
-div.o-card.head *:not(img){
+div.o-card.head *:not(img):not(button){
     /* float: left; */
     position: absolute !important;
     z-index: 1;
@@ -19,6 +19,10 @@ div.o-card.head *:not(img){
     /* left: 47% !important; */
 
 }
+
+div.o-card.head div{
+}
+
 
 div.o-card.head  .center{
     text-align: center;
