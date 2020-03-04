@@ -180,10 +180,15 @@ div.iconinput input{
  /* any */
 
  div.iconinput{
-     width: 100%;
+     width: 24%;
      position: relative;
      display: flow-root;
  }
+
+form.o-form div.iconinput{
+    width: 100%;
+
+}
 
  div.iconinput span.icon{
      margin: 0px;
