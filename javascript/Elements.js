@@ -15,14 +15,14 @@ class actionstyles {
       $(any).on({
         mouseenter : function(){
             $(this).animate({
-                "bottom" : "+=2px",
+                "bottom" : "+2px",
                 
             },100)
          },
 
          mouseleave : function(){
              $(this).animate({
-                "bottom" : "-=2px"
+                "bottom" : "-2px"
              },100)
 
          }
@@ -192,8 +192,8 @@ class Obutton {
 
     createstyle = () =>{
         var actionstyles1 = new actionstyles()
-        actionstyles1.ho_top("button.bt , div.dropdown div.drop-list.ho-top a")
-        actionstyles1.ho_color(" div.dropdown div.drop-list.ho-color a")
+        actionstyles1.ho_top("button.bt.ho-top , div.dropdown div.drop-list.ho-top a")
+        actionstyles1.ho_color(" div.dropdown div.drop-list.ho-color a , button.bt.ho-color ")
 
         actionstyles1 = null
 
