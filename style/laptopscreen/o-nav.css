@@ -3,10 +3,14 @@
 
     o-nav{
         color: #ffffff;
-        background-color : #1FB5F8;
         width: 100%;
         height:55px;
-        float: left
+        float: left;
+        z-index: 1;
+    }
+
+    o-nav.absolute{
+        position: absolute;
     }
 
     o-nav o-icons{

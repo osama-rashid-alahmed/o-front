@@ -207,7 +207,7 @@ class Obutton {
         $("div.dropdown div.drop-list").hide()
         $("div.dropdown").each(function(){
         var any =  $(this).children("div.drop-list")
-        $(this).children("button.drop-button").click(function(){
+        $(this).children(".drop-button").click(function(){
            
             if($(any).is(":hidden")){
                 $(any).show()

@@ -531,11 +531,15 @@ div.dropdown{
     display: inline-block;
 }
 
+div.dropdown p{
+    margin: 0px;
+}
+
 div.dropdown div.drop-list{
     background-color: #ffffff;
     width: 150px;
     display: flow-root;
-    margin: 0px;
+    margin: 10px 0px 0px 0px;
     font-size: 17px;
     position: absolute;
     padding-right: 5px;
