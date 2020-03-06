@@ -13,15 +13,15 @@ display: flow-root;
 
 div.o-card.head *:not(img):not(button){
     /* float: left; */
-    position: absolute !important;
+    position: absolute ;
     z-index: 1;
     width: 100%;
     /* left: 47% !important; */
 
 }
 
-div.o-card.head div{
-
+div.o-card.head div *{
+ position: relative !important;
     /* cant think now */
 }
 
@@ -29,7 +29,7 @@ div.o-card.head div{
 div.o-card.head  .center{
     text-align: center;
     top: 35%;
-
+  
 }
 
 div.o-card.head .center-bottom{
@@ -43,6 +43,22 @@ div.o-card.head .center-top{
     top: 20%;
 
 }
+
+div.o-card.head  .left{
+    top: 35%;
+    left: 2%;
+    
+}
+
+div.o-card.head  .left:not(button){
+    text-align: left;
+
+    width: 30%;
+    
+}
+
+
+
 /* 
 div.o-card.head h1,
 div.o-card.head h2,

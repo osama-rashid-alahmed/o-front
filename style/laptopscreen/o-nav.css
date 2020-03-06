@@ -124,7 +124,16 @@ o-nav o-icons.left {
     float: left;
     
 }
-    
+
+
+/* the hr style */
+
+hr.o-hr {
+    border: 0.7px solid;
+    z-index: 1;
+    width: 98%;
+    opacity: 0.2;
+}    
     
 
   }
