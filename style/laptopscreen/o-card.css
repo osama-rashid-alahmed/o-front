@@ -26,9 +26,10 @@ div.o-card.head div *{
 }
 
 
-div.o-card.head  .center{
+div.o-card  .center{
+    position: relative;
     text-align: center;
-    top: 35%;
+    top: 30%;
   
 }
 
@@ -48,6 +49,10 @@ div.o-card.head  .left{
     top: 35%;
     left: 2%;
     
+}
+
+div.o-card.rd{
+    border-radius: 10px;
 }
 
 div.o-card.head  .left:not(button){
@@ -150,6 +155,7 @@ div.o-card.xfull{
 div.o-card.yfull{
     height: 100%;
 }
+
 
 div.o-card img.full{
 width: 100% !important;

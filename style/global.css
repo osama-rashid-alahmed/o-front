@@ -156,6 +156,11 @@ html , body{
     color: #292929;
 }
 
+.white:not(input){
+    background-color:  #ffffff !important;
+    color: #292929;
+}
+
 
 
 
