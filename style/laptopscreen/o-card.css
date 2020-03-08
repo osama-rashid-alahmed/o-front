@@ -10,6 +10,12 @@ overflow: hidden;
 display: flow-root;
 }
 
+div.o-card.xcenter{
+    width: 90% !important;
+    left: 4.6%;
+    
+}
+
 
 div.o-card.head *:not(img):not(button){
     /* float: left; */
