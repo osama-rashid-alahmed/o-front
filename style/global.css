@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 @import "./laptopscreen/o-nav.css";
 @import "./laptopscreen/o-slide.css";
@@ -6,9 +7,13 @@
 @import "./laptopscreen/o-input.css";
 @import "laptopscreen/o-card.css";
 
-*{
- font-family: 'Roboto', sans-serif;
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Open Sans', sans-serif !important;
  
+}
+*{
+    font-family: 'Roboto', sans-serif;
+
 }
 
 html , body{
