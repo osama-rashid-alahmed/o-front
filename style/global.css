@@ -16,6 +16,12 @@ h1,h2,h3,h4,h5,h6{
 
 }
 
+.left:not(div.o-card.head){
+    float: left !important;
+}
+.right:not(div.o-card.head){
+    float: right !important;
+}
 html , body{
     width: 100%;
     height: 100%;

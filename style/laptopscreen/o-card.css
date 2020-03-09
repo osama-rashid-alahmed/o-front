@@ -3,7 +3,6 @@
 
 div.o-card{
 background-color: #1FB5F8;
-float: left;
 margin: 0.7px;
 position: relative;
 overflow: hidden;
@@ -12,8 +11,12 @@ display: flow-root;
 
 div.o-card.xcenter{
     width: 90% !important;
-    left: 4.6%;
+    margin: 0 auto;
     
+}
+
+div.o-card.center{
+    margin: 0 auto;
 }
 
 
