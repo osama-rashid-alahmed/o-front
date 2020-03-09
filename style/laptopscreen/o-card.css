@@ -209,6 +209,15 @@ div.o-card img.rd{
     border-radius: 6%;
 
 }
+div.o-card .description,
+div.o-card .title{
+ margin-left: 30%;
+}
+
+div.o-card.sh{
+    box-shadow: 0px 0px 20px #505050;;
+
+}
 
 
 div.container-list{
@@ -216,6 +225,8 @@ div.container-list{
     height: 100%;
     margin: 0 5%;
 }
+
+
 
 div.container-list div.o-card{
 
