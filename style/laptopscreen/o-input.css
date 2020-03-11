@@ -537,7 +537,7 @@ div.dropdown p{
 
 div.dropdown div.drop-list{
     background-color: #ffffff;
-    width: 150px;
+    width: auto;
     display: flow-root;
     margin: 10px 0px 0px 0px;
     font-size: 17px;
@@ -587,6 +587,7 @@ div.dropdown div.drop-list.dark{
 
 div.dropdown div.drop-list a{
     text-decoration: none;
+    width: 150px !important;
     color: inherit;
     padding: 7px 0px 7px 5px;
     position: relative !important;
