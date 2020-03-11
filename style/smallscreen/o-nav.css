@@ -1,0 +1,126 @@
+@media only screen and (max-width : 799px){
+
+
+    o-nav{
+        background-color: aqua;
+        width: 100%;
+        height:55px;
+        float: left;
+        z-index: 3;
+    }
+
+    o-nav.absolute{
+        position: absolute;
+    }
+
+    o-nav o-icons{
+        width: auto;
+        height: auto;
+        float: right;
+        margin-top: 3px;
+    }
+
+
+    
+    o-nav.large{
+        height: 75px !important;
+    }
+
+    o-nav.huge{
+        height: 90px !important;
+    }
+
+    o-nav.large ul {
+     margin-top: 25px !important;
+    }
+
+    o-nav.large o-icons {
+    margin-top: 11px !important;
+    }
+
+
+    
+    o-nav.large h1 {
+        margin-top: 17px !important;
+       }
+
+    o-nav.huge ul{
+        margin-top: 30px;
+
+    }
+    o-nav.huge h1{
+        margin-top: 22px ;
+        
+    }
+
+    o-nav.huge o-icons{
+        margin-top: 16px;
+    }
+
+    o-nav ul{
+        width: auto;
+        height : 20px;
+        padding-left: 0px;
+    }
+
+    
+    o-nav ul li{
+        display: inline;
+        margin-right: 10px;
+        position: relative;
+        cursor: pointer;
+
+    }
+
+    o-nav ul.right{
+        float: right;
+        
+    }
+
+    o-nav ul.left{
+        float: left; 
+                
+    }
+
+    o-nav ul li a {
+        text-decoration: none;
+        display: inline-block;
+        color:inherit
+    }
+
+    o-nav .shadow{
+        text-shadow: 4px 8px 6px #505050;
+                
+    }
+
+    o-nav ul li a {
+        text-decoration: none;
+        display: inline-block;
+        color:inherit;
+        font-size: 15px;
+    }
+
+    o-nav h1{
+        margin: 8px 5px 4px 10px
+    }
+
+ o-nav h1.right {
+     position: relative;
+     float: right;
+ }
+
+ o-nav h1.left {
+    position: relative;
+    float: left;
+}
+
+o-nav o-icons img {
+    width: 25px;
+    margin: 10px 10px 0px 10px;
+    position: relative;
+
+    
+}
+
+
+}

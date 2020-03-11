@@ -7,6 +7,14 @@
 @import "./laptopscreen/o-input.css";
 @import "laptopscreen/o-card.css";
 
+@import "./smallscreen/button.css";
+@import "./smallscreen/o-card.css";
+@import "./smallscreen/o-footer.css";
+@import "./smallscreen/o-input.css";
+@import "./smallscreen/o-nav.css";
+@import "./smallscreen/o-slide.css";
+
+
 h1,h2,h3,h4,h5,h6{
     font-family: 'Open Sans', sans-serif !important;
  
