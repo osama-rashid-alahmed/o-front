@@ -2,141 +2,122 @@
 @media only screen and (min-width: 800px) {
 
     o-nav{
-        color: #ffffff;
-        width: 100%;
-        height:55px;
-        float: left;
-        z-index: 3;
-    }
-
-    o-nav.absolute{
-        position: absolute;
-    }
-
-    o-nav o-icons{
-        width: auto;
-        height: auto;
-        float: right;
-    }
+    color: #ffffff;
+    width: 100%;
+    height:55px;
+    float: left;
+    z-index: 3;
+}
+o-nav.absolute{
+    position: absolute;
+}
+o-nav o-icons{
+    width: auto;
+    height: auto;
+    float: right;
+}
   
-/* 
- o- nav size
-     */
-
-
-    o-nav.large{
-        height: 75px !important;
-    }
-
-    o-nav.huge{
-        height: 90px !important;
-    }
-
-    o-nav.large ul {
-     margin-top: 25px !important;
-    }
-
-    o-nav.large o-icons {
+/* o- nav size*/
+o-nav.large{
+    height: 75px !important;
+}
+o-nav.huge{
+    height: 90px !important;
+}
+o-nav.large ul {
+    margin-top: 25px !important;
+}
+o-nav.large o-icons {
     margin-top: 10px !important;
-    }
-
-    o-nav.large h1 {
-        margin-top: 17px !important;
-       }
-
-    o-nav.huge ul{
-        margin-top: 30px;
-
-    }
-    o-nav.huge h1{
-        margin-top: 22px ;
-        
-    }
-
-    o-nav.huge o-icons{
-        margin-top: 15px;
-    }
-
-    o-nav ul{
-        width: auto;
-        height : 20px
-    }
-
-
-
-
-    o-nav ul li{
-        display: inline;
-        margin-right: 25px;
-        position: relative;
-        cursor: pointer;
-
-        
-        }
-    o-nav ul.right{
-        float: right;
-        
-    }
-
-    o-nav ul.left{
-        float: left; 
+}
+o-nav.large h1 {
+    margin-top: 17px !important;
+}
+o-nav.huge ul{
+    margin-top: 30px;
+}
+o-nav.huge h1{
+    margin-top: 22px ;        
+}
+o-nav.huge o-icons{
+    margin-top: 15px;
+}
+o-nav ul{
+    width: auto;
+    height : 20px
+}
+o-nav ul li{
+    display: inline;
+    margin-right: 25px;
+    position: relative;
+    cursor: pointer;        
+}
+o-nav ul.right{
+    float: right;   
+}
+o-nav ul.left{
+    float: left;                 
+}
+o-nav .shadow{
+    text-shadow: 4px 8px 6px #505050;
                 
-    }
-    o-nav .shadow{
-        text-shadow: 4px 8px 6px #505050;
-                
-    }
+}
 
-    o-nav ul li a {
-        text-decoration: none;
-        display: inline-block;
-        color:inherit
-    }
-
-    o-nav h1{
-        margin: 8px 20px 4px 20px
-    }
-
- o-nav h1.right {
-     position: relative;
-     float: right;
- }
-
- o-nav h1.left {
+o-nav ul li a {
+    text-decoration: none;
+    display: inline-block;
+    color:inherit
+}
+o-nav h1{
+    margin: 8px 20px 4px 20px
+}
+o-nav h1.right {
+    position: relative;
+    float: right;
+}
+o-nav h1.left {
     position: relative;
     float: left;
 }
-
 o-nav o-icons img {
     width: 30px;
     margin: 10px 20px 0px 10px;
-    position: relative;
-
-    
+    position: relative;   
 }
-
 o-nav o-icons.right {
-    float: right;
-    
+    float: right;   
 }
-
 o-nav o-icons.left {
-    float: left;
-    
+    float: left;    
 }
-
 
 /* the hr style */
-
 hr.o-hr {
     border: 0.7px solid;
     z-index: 1;
     width: 98%;
     opacity: 0.2;
 }    
-    
 
-  }
+/* the image background style */
+o-nav img.img-back,
+o-nav.small img.img-back{
+    width: 100%;
+    height: 55px;
+    margin: 0 auto;
+    object-fit: cover;
+    position: absolute;
+    z-index: -1;
+    display: block;
+}
+o-nav.large img.img-back{
+    height: 75px;
+}
+o-nav.huge img.img-back{
+    height: 90px;
+}
+
+}
 
 
   
