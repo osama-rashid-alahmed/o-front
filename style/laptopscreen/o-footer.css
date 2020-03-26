@@ -4,7 +4,6 @@
      position: relative;
      width: 100%;
      height: 100px;
-     background-color: black;
      float: left;
      left: 0px;
      bottom: 0px;
@@ -78,10 +77,15 @@ o-footer div ul.large{
 
  }
 
+ /* the image background style */
+o-footer img.img-back{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    object-fit: cover;
+    position: absolute;
+    z-index: -1;
+    display: block;
+}
 
-
-
-
-
-
- } 
+} 

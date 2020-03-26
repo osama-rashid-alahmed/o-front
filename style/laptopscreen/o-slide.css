@@ -228,6 +228,18 @@
         transition-delay: 0s;
     }
 
+/* the image background style */
+o-slide img.img-back{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    object-fit: cover;
+    position: absolute;
+    z-index: -1;
+    display: block;
+}
+
+
 
 
 
