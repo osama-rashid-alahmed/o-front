@@ -9,6 +9,14 @@
 
 class actionstyles {
 
+   // this function for add gradient to the img-back
+    gr_color   = (item) =>{
+        $(item).each(function(){
+        var any = $(this).children(".img-back")
+           var getclass= $(any).attr("class")
+            var any2 = $(this).append("<div class='"+getclass+"'></div>")
+        })
+    }
 
 // set up the bottom +-=2 animation
     ho_top = (any)=>{
@@ -83,6 +91,8 @@ class actionstyles {
           })
     
     }
+
+
 }
 
 class Onav {
@@ -110,6 +120,9 @@ class Onav {
         $('o-slide.closed').animate({width:'show'},350);
     })
 })
+
+var actionstyles1 = new actionstyles()
+actionstyles1.gr_color("o-nav")
 
     }
 }
