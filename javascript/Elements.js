@@ -12,10 +12,19 @@ class actionstyles {
    // this function for add gradient to the img-back
     gr_color   = (item) =>{
         $(item).each(function(){
-        var any = $(this).children(".img-back")
-           var getclass= $(any).attr("class")
-            var any2 = $(this).append("<div class='"+getclass+"'></div>")
-        })
+            var any = $(item).children(".img-back")
+            var getclass= $(any).attr("class")
+
+            if($(any).length != 0 && $(any).length <= 1){
+                var any2 = $(this).append("<div class='"+getclass+"'></div>")
+                
+            }else if($(any).length >= 1){
+                $(any).each(function(){
+                $(item).append("<div class='"+$(this).attr("class")+"'></div>")
+            })
+        }
+
+      })
     }
 
 // set up the bottom +-=2 animation
@@ -113,6 +122,7 @@ class Onav {
         // create the animation
        var actionstyles1 = new actionstyles()
        actionstyles1.ho_top("o-nav ul li , o-nav ul li a ,o-nav o-icons img")
+       actionstyles1.gr_color("o-nav")
        actionstyles1 = null
 
 
@@ -121,8 +131,7 @@ class Onav {
     })
 })
 
-var actionstyles1 = new actionstyles()
-actionstyles1.gr_color("o-nav")
+
 
     }
 }
@@ -152,6 +161,7 @@ class Oslide{
       var actionstyles1 = new actionstyles()
       actionstyles1.ho_top("o-slide o-icons img , o-slide ul.list.ho-top li")
       actionstyles1.ho_right(" o-slide ul.list.ho-right li" , "ho-right-class")
+      actionstyles1.gr_color("o-slide")
       actionstyles1 = null
 
 
@@ -192,6 +202,7 @@ class Ofooter{
     createstyle = () =>{
         var actionstyles1 = new actionstyles()
         actionstyles1.ho_top("o-footer div ul.list li")
+        actionstyles1.gr_color("o-footer")
         actionstyles1 = null
     }
 
@@ -325,16 +336,8 @@ class Ocard{
         })
 
     })
-     }
-
-
-
+  }
 }
-
-
-
-
-
 const oslide = new Oslide()
 const onav = new Onav()
 const ofooter = new Ofooter()
