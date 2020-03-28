@@ -78,29 +78,117 @@ div.img-back.pink-white{
 
 /* purple-color gradient */
 div.img-back.purple-primary{
-    background: linear-gradient(45deg, rgba(252,0,134,1) 0%, rgba(31,181,248,1) 100%);
+    background: linear-gradient(45deg, rgba(92,45,249,1) 0%, rgba(31,181,248,1) 100%);
 }
 div.img-back.purple-pink{
     background: linear-gradient(45deg, rgba(92,45,249,1) 0%, rgba(252,0,134,1) 100%);
 }
 div.img-back.purple-blue{
-    background: linear-gradient(45deg, rgba(252,0,134,1) 0%, rgba(38,95,252,1) 100%);
+    background: linear-gradient(45deg, rgba(92,45,249,1) 0%, rgba(38,95,252,1) 100%);
 }
 div.img-back.purple-green{
-    background: linear-gradient(45deg, rgba(252,0,134,1) 0%, rgba(78,197,65,1) 100%);
+    background: linear-gradient(45deg, rgba(92,45,249,1) 0%, rgba(78,197,65,1) 100%);
 }
 div.img-back.purple-orange{
-    background: linear-gradient(45deg, rgba(252,0,134,1) 0%, rgba(251,173,38,1) 100%);
+    background: linear-gradient(45deg, rgba(92,45,249,1) 0%, rgba(251,173,38,1) 100%);
 }
 div.img-back.purple-red{
-    background: linear-gradient(45deg, rgba(252,0,134,1) 0%, rgba(249,54,54,1) 100%);
+    background: linear-gradient(45deg, rgba(92,45,249,1) 0%, rgba(249,54,54,1) 100%);
 }
 div.img-back.purple-dark{
-    background: linear-gradient(45deg, rgba(252,0,134,1) 0%, rgba(41,41,41,1) 100%);
+    background: linear-gradient(45deg, rgba(92,45,249,1) 0%, rgba(41,41,41,1) 100%);
 }
 div.img-back.purple-gray{
-    background: linear-gradient(45deg, rgba(252,0,134,1) 0%, rgba(156,158,159,1) 100%);
+    background: linear-gradient(45deg, rgba(92,45,249,1) 0%, rgba(156,158,159,1) 100%);
 }
 div.img-back.purple-white{
-    background: linear-gradient(45deg, rgba(252,0,134,1) 0%, rgba(255,255,255,1) 100%);
+    background: linear-gradient(45deg, rgba(92,45,249,1) 0%, rgba(255,255,255,1) 100%);
 }
+
+/* blue-color gradient */
+div.img-back.blue-primary{
+    background: linear-gradient(45deg, rgba(38,95,252,1) 0%, rgba(31,181,248,1) 100%);
+}
+div.img-back.blue-pink{
+    background: linear-gradient(45deg, rgba(38,95,252,1) 0%, rgba(252,0,134,1) 100%);
+}
+div.img-back.blue-purple{
+    background: linear-gradient(45deg, rgba(38,95,252,1) 0%, rgba(92,45,249,1) 100%);
+}
+div.img-back.blue-green{
+    background: linear-gradient(45deg, rgba(38,95,252,1) 0%, rgba(78,197,65,1) 100%);
+}
+div.img-back.blue-orange{
+    background: linear-gradient(45deg, rgba(38,95,252,1) 0%, rgb(251,173,38,1) 100%);
+}
+div.img-back.blue-red{
+    background: linear-gradient(45deg, rgba(38,95,252,1) 0%, rgba(249,54,54,1) 100%);
+}
+div.img-back.blue-dark{
+    background: linear-gradient(45deg, rgba(38,95,252,1) 0%, rgba(41,41,41,1) 100%);
+}
+div.img-back.blue-gray{
+    background: linear-gradient(45deg, rgba(38,95,252,1) 0%, rgba(156,158,159,1) 100%);
+}
+div.img-back.blue-white{
+    background: linear-gradient(45deg, rgba(38,95,252,1) 0%, rgba(255,255,255,1) 100%);
+}
+
+/* green-color gradient */
+div.img-back.green-primary{
+    background: linear-gradient(45deg, rgba(78,197,65,1) 0%, rgba(31,181,248,1) 100%);
+}
+div.img-back.green-pink{
+    background: linear-gradient(45deg, rgba(78,197,65,1) 0%, rgba(252,0,134,1) 100%);
+}
+div.img-back.green-blue{
+    background: linear-gradient(45deg, rgba(78,197,65,1) 0%, rgba(38,95,252,1) 100%);
+}
+div.img-back.green-purple{
+    background: linear-gradient(45deg, rgba(78,197,65,1) 0%, rgba(92,45,249,1) 110%);
+}
+div.img-back.green-orange{
+    background: linear-gradient(45deg, rgba(78,197,65,1) 0%, rgba(251,173,38,1) 100%);
+}
+div.img-back.green-red{
+    background: linear-gradient(45deg, rgba(78,197,65,1) 0%, rgba(249,54,54,1) 100%);
+}
+div.img-back.green-dark{
+    background: linear-gradient(45deg, rgba(78,197,65,1) 0%, rgba(41,41,41,1) 100%);
+}
+div.img-back.green-gray{
+    background: linear-gradient(45deg, rgba(78,197,65,1) 0%, rgba(156,158,159,1) 100%);
+}
+div.img-back.green-white{
+    background: linear-gradient(45deg, rgba(78,197,65,1) 0%, rgba(255,255,255,1) 100%);
+}
+
+/* orange-color gradient */
+div.img-back.orange-primary{
+    background: linear-gradient(45deg, rgba(251,173,38,1) 0%, rgba(31,181,248,1) 100%);
+}
+div.img-back.orange-pink{
+    background: linear-gradient(45deg, rgba(251,173,38,1) 0%, rgba(252,0,134,1) 100%);
+}
+div.img-back.orange-blue{
+    background: linear-gradient(45deg, rgba(251,173,38,1) 0%, rgba(38,95,252,1) 100%);
+}
+div.img-back.orange-purple{
+    background: linear-gradient(45deg, rgba(251,173,38,1) 0%, rgba(92,45,249,1) 110%);
+}
+div.img-back.orange-green{
+    background: linear-gradient(45deg, rgba(251,173,38,1) 0%, rgba(78,197,65,1) 100%);
+}
+div.img-back.orange-red{
+    background: linear-gradient(45deg, rgba(251,173,38,1) 0%, rgba(249,54,54,1) 100%);
+}
+div.img-back.orange-dark{
+    background: linear-gradient(45deg, rgba(251,173,38,1) 0%, rgba(41,41,41,1) 100%);
+}
+div.img-back.orange-gray{
+    background: linear-gradient(45deg, rgba(251,173,38,1) 0%, rgba(156,158,159,1) 100%);
+}
+div.img-back.orange-white{
+    background: linear-gradient(45deg, rgba(251,173,38,1) 0%, rgba(255,255,255,1) 100%);
+}
+
