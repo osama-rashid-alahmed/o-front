@@ -279,35 +279,6 @@ div.img-back.gray-white{
     background: linear-gradient(45deg, rgba(156,158,159,1) 0%, rgba(255,255,255,1) 100%);
 }
 
-/* gray-color gradient */
-div.img-back.gray-primary{
-    background: linear-gradient(45deg, rgba(156,158,159,1) 0%, rgba(31,181,248,1) 100%);
-}
-div.img-back.gray-pink{
-    background: linear-gradient(45deg, rgba(156,158,159,1) 0%, rgba(252,0,134,1) 100%);
-}
-div.img-back.gray-blue{
-    background: linear-gradient(45deg, rgba(156,158,159,1) 0%, rgba(38,95,252,1) 100%);
-}
-div.img-back.gray-purple{
-    background: linear-gradient(45deg, rgba(156,158,159,1) 0%, rgba(92,45,249,1) 100%);
-}
-div.img-back.gray-green{
-    background: linear-gradient(45deg, rgba(156,158,159,1) 0%, rgba(78,197,65,1) 100%);
-}
-div.img-back.gray-orange{
-    background: linear-gradient(45deg, rgba(156,158,159,1) 0%, rgba(251,173,38,1) 100%);
-}
-div.img-back.gray-red{
-    background: linear-gradient(45deg, rgba(156,158,159,1) 0%, rgba(249,54,54,1) 100%);
-}
-div.img-back.gray-dark{
-    background: linear-gradient(45deg, rgba(156,158,159,1) 0%, rgba(41,41,41,1) 100%);
-}
-div.img-back.gray-white{
-    background: linear-gradient(45deg, rgba(156,158,159,1) 0%, rgba(255,255,255,1) 100%);
-}
-
 /* white-color gradient */
 div.img-back.white-primary{
     background: linear-gradient(45deg, rgba(255,255,255,1) 0%, rgba(31,181,248,1) 100%);
