@@ -1,7 +1,5 @@
-
-@media only screen and (min-width: 800px) {
-
-    o-nav{
+/* code for all sizes */
+o-nav{
     color: #ffffff;
     width: 100%;
     height:55px;
@@ -16,7 +14,7 @@ o-nav o-icons{
     height: auto;
     float: right;
 }
-  
+
 /* o- nav size*/
 o-nav.large{
     height: 75px !important;
@@ -27,9 +25,6 @@ o-nav.huge{
 o-nav.large ul {
     margin-top: 25px !important;
 }
-o-nav.large o-icons {
-    margin-top: 10px !important;
-}
 o-nav.large h1 {
     margin-top: 17px !important;
 }
@@ -38,9 +33,6 @@ o-nav.huge ul{
 }
 o-nav.huge h1{
     margin-top: 22px ;        
-}
-o-nav.huge o-icons{
-    margin-top: 15px;
 }
 o-nav ul{
     width: auto;
@@ -59,17 +51,12 @@ o-nav ul.left{
     float: left;                 
 }
 o-nav .shadow{
-    text-shadow: 4px 8px 6px #505050;
-                
+    text-shadow: 4px 8px 6px #505050;             
 }
-
 o-nav ul li a {
     text-decoration: none;
     display: inline-block;
     color:inherit
-}
-o-nav h1{
-    margin: 8px 20px 4px 20px
 }
 o-nav h1.right {
     position: relative;
@@ -79,27 +66,12 @@ o-nav h1.left {
     position: relative;
     float: left;
 }
-o-nav o-icons img {
-    width: 30px;
-    margin: 10px 20px 0px 10px;
-    position: relative;   
-}
 o-nav o-icons.right {
     float: right;   
 }
 o-nav o-icons.left {
     float: left;    
 }
-
-/* the hr style */
-hr.o-hr {
-    border: 0.7px solid;
-    z-index: 1;
-    width: 98%;
-    opacity: 0.2;
-}    
-
-/* the image background style */
 o-nav img.img-back,
 o-nav.small img.img-back{
     width: 100%;
@@ -117,10 +89,24 @@ o-nav.huge img.img-back{
     height: 90px;
 }
 
+@media only screen and (min-width: 800px) {
+o-nav.large o-icons {
+    margin-top: 10px !important;
+}
+o-nav.huge o-icons{
+    margin-top: 15px;
+}
+o-nav h1{
+    margin: 8px 20px 4px 20px
+}
+o-nav o-icons img {
+    width: 30px;
+    margin: 10px 20px 0px 10px;
+    position: relative;   
+}
 }
 
-
-  
+/* the image background style */
 
 
 
