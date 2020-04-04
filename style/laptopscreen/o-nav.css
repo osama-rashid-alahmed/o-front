@@ -5,6 +5,7 @@ o-nav{
     height:55px;
     float: left;
     z-index: 3;
+    position: sticky;
 }
 o-nav.absolute{
     position: absolute;

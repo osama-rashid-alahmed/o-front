@@ -1,0 +1,27 @@
+@media only screen and (max-width : 599px){
+
+form.o-form{
+    margin: 10px;
+    width: 90%;
+    height: auto;
+    display: flow-root;
+
+}
+
+input[type= text].o-input,
+input[type= password].o-input,
+input[type= email].o-input{
+    padding: 10px 0px 10px 10px;
+    width: 250px;
+    margin-top: 10px;
+    border: 2.2px solid #1FB5F8;
+    border-radius: 3px;
+    font-size: 16px !important;
+    
+}
+form.o-form input[type= text].o-input,
+form.o-form input[type= password].o-input,
+form.o-form input[type= email].o-input{
+    width: 97% !important;
+} 
+}

@@ -1,4 +1,143 @@
-@media only screen and (min-width: 800px) {
+form.o-form.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+form.o-form .title{
+    text-align: center;
+}
+input.o-input:focus {
+    outline: none;
+}
+
+/* colors of the input(just the text) */
+input[type = text].o-input.pink,
+input[type = password].o-input.pink,
+input[type = email].o-input.pink{
+    border-color: #FC0086 !important;
+}
+input[type = text].o-input.darkpink,
+input[type = password].o-input.darkpink,
+input[type = email].o-input.darkpink{
+    border-color: #8A0E50 !important;
+}
+input[type = text].o-input.softpink,
+input[type = password].o-input.softpink,
+input[type = email].o-input.softpink{
+    border-color: #B23577 !important;
+}
+input[type = text].o-input.purple,
+input[type = password].o-input.purple,
+input[type = email].o-input.purple{
+    border-color: #5C2DF9 !important;
+}
+input[type = text].o-input.darkpurple,
+input[type = password].o-input.darkpurple,
+input[type = email].o-input.darkpurple{
+    border-color: #271467 !important;
+}
+input[type = text].o-input.softpurple,
+input[type = password].o-input.softpurple,
+input[type = email].o-input.softpurple{
+    border-color: #715DB3 !important;
+}
+input[type = text].o-input.primary,
+input[type = password].o-input.primary,
+input[type = email].o-input.primary{
+    border-color: #1FB5F8 !important;
+}
+input[type = text].o-input.blue,
+input[type = password].o-input.blue,
+input[type = email].o-input.primary{
+    border-color: #265FFC !important;
+}
+input[type = text].o-input.darkblue,
+input[type = password].o-input.darkblue,
+input[type = email].o-input.darkblue{
+    border-color: #1C3885 !important;
+}
+input[type = text].o-input.softblue,
+input[type = password].o-input.softblue,
+input[type = email].o-input.softblue{
+    border-color: #546DB3 !important;
+}
+input[type = text].o-input.green,
+input[type = password].o-input.green,
+input[type = email].o-input.green{
+    border-color: #4EC541 !important;
+}
+input[type = text].o-input.darkgreen,
+input[type = password].o-input.darkgreen,
+input[type = email].o-input.darkgreen{
+    border-color: #616527 !important;
+}
+input[type = text].o-input.softgreen,
+input[type = password].o-input.softgreen,
+input[type = email].o-input.softgreen{
+    border-color: #9BA234 !important;
+}
+input[type = text].o-input.lightgreen,
+input[type = password].o-input.lightgreen,
+input[type = email].o-input.lightgreen{
+    border-color: #26FB91 !important;
+}
+input[type = text].o-input.orange,
+input[type = password].o-input.orange,
+input[type = text].o-input.orange{
+    border-color: #FBAD26 !important;
+}
+input[type = text].o-input.darkorange,
+input[type = password].o-input.darkorange,
+input[type = text].o-input.darkorange{
+    border-color: #9A6509 !important;
+}
+input[type = text].o-input.softorange,
+input[type = password].o-input.softorange,
+input[type = text].o-input.softorange{
+    border-color: #BD8D3A !important;
+}
+input[type = text].o-input.red,
+input[type = password].o-input.red,
+input[type = email].o-input.red{
+    border-color: #F93636 !important;
+}
+input[type = text].o-input.darkred,
+input[type = password].o-input.darkred,
+input[type = email].o-input.darkred{
+    border-color: #6C0D0D !important;
+}
+input[type = text].o-input.softred,
+input[type = password].o-input.softred,
+input[type = email].o-input.softred{
+    border-color: #C34242 !important;
+}
+input[type = text].o-input.dark,
+input[type = password].o-input.dark
+input[type = email].o-input.dark{
+    border-color: #292929 !important;
+}
+input[type = text].o-input.gray,
+input[type = password].o-input.gray,
+input[type = email].o-input.gray{
+    border-color: #9C9E9F !important;
+}
+input[type = text].o-input.lightgray,
+input[type = password].o-input.lightgray,
+input[type = email].o-input.lightgray{
+    border-color:  #DFDFDF !important;
+}
+input[type = text].o-input.normal,
+input[type = password].o-input.normal,
+input[type = email].o-input.normal{
+    background-color: #ffffff !important;
+    border: 1px solid #ced4da !important;
+}
+input[type = text].o-input.rd,
+input[type = password].o-input.rd,
+input[type = email].o-input.rd{
+    border-radius:  20px !important;
+}
+
+@media only screen and (min-width: 600px) {
 
 form.o-form {
     margin: 20px;
@@ -12,44 +151,31 @@ form.o-form.large{
 form.o-form.huge{
 width: 40em !important;
 }
-form.o-form.center {
-    margin-left: auto;
-    margin-right: auto;
-}
-form.o-form.left {
-float: left;
-}
-form.o-form.right {
-    float: right;
- }
-form.o-form .title{
-text-align: center;
-}
+
 input[type= text].o-input,
 input[type= password].o-input,
 input[type= email].o-input{
     padding: 10px 0px 10px 10px;
-    width: 20%;
+    width: 400px;
     margin-top: 10px;
     border: 2.2px solid #1FB5F8;
     border-radius: 3px;
-    font-size: 16px !important;
-    
+    font-size: 16px !important; 
+}
+form.o-form input.o-input{
+    width: 95%;
 }
 form.o-form.large input[type= text].o-input,
 form.o-form.large input[type= password].o-input,
 form.o-form.large input[type= email].o-input{
 width: 97% !important;
 }
-
 form.o-form.huge input[type = text].o-input,
 form.o-form.huge input[type = password].o-input,
 form.o-form.huge input[type = email].o-input{
     width: 98% !important;
-    }
-input.o-input:focus {
-    outline: none;
-    }
+}
+
 input[type = text].o-input.pink,
 input[type = password].o-input.pink,
 input[type = email].o-input.pink{
