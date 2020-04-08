@@ -137,6 +137,11 @@ input[type = email].o-input.rd{
     border-radius:  20px !important;
 }
 
+form.o-form div.iconinput{
+    width: 100%;
+    height: 51px;
+}
+
 @media only screen and (min-width: 600px) {
 
 form.o-form {
@@ -149,7 +154,7 @@ form.o-form.large{
     width: 30em !important;
 }
 form.o-form.huge{
-width: 40em !important;
+    width: 40em !important;
 }
 
 input[type= text].o-input,
@@ -168,73 +173,12 @@ form.o-form input.o-input{
 form.o-form.large input[type= text].o-input,
 form.o-form.large input[type= password].o-input,
 form.o-form.large input[type= email].o-input{
-width: 97% !important;
+    width: 97% !important;
 }
 form.o-form.huge input[type = text].o-input,
 form.o-form.huge input[type = password].o-input,
 form.o-form.huge input[type = email].o-input{
     width: 98% !important;
-}
-
-input[type = text].o-input.pink,
-input[type = password].o-input.pink,
-input[type = email].o-input.pink{
-    border-color: #FC0086 !important;
-}
-
-input[type = text].o-input.purple,
-input[type = password].o-input.purple,
-input[type = email].o-input.purple{
-    border-color: #5C2DF9 !important;
-}
-input[type = text].o-input.primary{
-    border-color: #1FB5F8 !important;
-}
-input[type = text].o-input.green,
-input[type = password].o-input.green,
-input[type = email].o-input.green{
-    border-color: #4EC541 !important;
-}
-input[type = text].o-input.lightgreen,
-input[type = password].o-input.lightgreen,
-input[type = email].o-input.lightgreen{
-    border-color: #26FB91 !important;
-}
-input[type = text].o-input.lightorange,
-input[type = password].o-input.lightorange,
-input[type = text].o-input.lightorange{
-    border-color: #FBAD26 !important;
-}
-input[type = text].o-input.red,
-input[type = password].o-input.red,
-input[type = email].o-input.red{
-    border-color: #F93636 !important;
-}
-input[type = text].o-input.dark,
-input[type = password].o-input.dark
-input[type = email].o-input.dark{
-    border-color: #292929 !important;
-}
-input[type = text].o-input.gray,
-input[type = password].o-input.gray,
-input[type = email].o-input.gray{
-    border-color: #9C9E9F !important;
-}
-input[type = text].o-input.lightgray,
-input[type = password].o-input.lightgray,
-input[type = email].o-input.lightgray{
-    border-color:  #DFDFDF !important;
-}
-input[type = text].o-input.normal,
-input[type = password].o-input.normal,
-input[type = email].o-input.normal{
-    background-color: #ffffff !important;
-    border: 1px solid #ced4da !important;
-}
-input[type = text].o-input.rd,
-input[type = password].o-input.rd,
-input[type = email].o-input.rd{
-    border-radius:  20px !important;
 }
 
  /* iconinput */
@@ -331,9 +275,7 @@ div.iconinput span.icon.lightgray{
 }
 
 /* added form sizes iconinput */
-form.o-form div.iconinput{
-    width: 100%;
-}
+
 form.o-form div.iconinput input.o-input{
    width: 208px;
 }
