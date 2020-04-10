@@ -17,13 +17,10 @@
 
 h1,h2,h3,h4,h5,h6{
     font-family: 'Open Sans', sans-serif !important;
- 
 }
 *{
     font-family: 'Roboto', sans-serif;
-
 }
-
 .left:not(div.o-card.head){
     float: left !important;
 }
@@ -37,125 +34,89 @@ html , body{
     padding: 0px;
     border: 0;
     overflow-x: hidden;
-    overflow-y: auto;
-    
+    overflow-y: auto; 
 }
-
 .pink:not(input){
     background-color: #FC0086 !important;
     color: #ffffff ;
-
 }
-
 .darkpink:not(input){
     background-color: #8A0E50 !important;
     color: #ffffff ;
-
 }
-
 .softpink:not(input){
     background-color: #B23577 !important;
     color: #ffffff ;
-
 }
-
 .purple:not(input){
     background-color: #5C2DF9 !important;
     color: #ffffff ;
-
 }
-
 .darkpurple:not(input){
     background-color: #271467 !important;
     color: #ffffff ;
-
 }
-
 .softpurple:not(input){
     background-color: #715DB3 !important;
     color: #ffffff ;
-
 }
-
 .primary:not(input){
     background-color: #1FB5F8 !important;
     color: #ffffff ;
-
 }
-
 .blue:not(input){
     background-color: #265FFC !important;
     color: #ffffff ;
-
 }
-
 .darkblue:not(input){
     background-color: #1C3885 !important;
     color: #ffffff ;
-
 }
-
 .softblue:not(input){
     background-color: #546DB3 !important;
     color: #ffffff ;
-
 }
-
 .green:not(input){
     background-color: #4EC541 !important;
     color: #ffffff ;
-
 }
 .darkgreen:not(input){
     background-color: #616527 !important;
     color: #ffffff ;
-
 }
-
 .softgreen:not(input){
     background-color: #9BA234 !important;
     color: #ffffff ;
-
 }
-
 .lightgreen:not(input){
     background-color: #26FB91 !important;
     color: #ffffff ;
-
 }
 .orange:not(input){
     background-color: #FBAD26 ;
     color: #ffffff;
-
 }
 
 .darkorange:not(input){
     background-color: #9A6509 ;
     color: #ffffff;
-
 }
 
 .softorange:not(input){
     background-color: #BD8D3A ;
     color: #ffffff;
-
 }
 .red:not(input){
     background-color: #F93636 !important;
     color: #ffffff ;
-
 }
-
 .darkred:not(input){
     background-color: #6C0D0D !important;
     color: #ffffff ;
-
 }
-
 .softred:not(input){
     background-color: #C34242 !important;
     color: #ffffff ;
-
 }
 .dark:not(input){
     background-color: #292929 !important;
@@ -169,141 +130,80 @@ html , body{
     background-color:  #DFDFDF !important;
     color: #292929;
 }
-
 .white:not(input){
     background-color:  #ffffff !important;
     color: #292929;
 }
-
-
-
-
 .font-pink{
     color: #FC0086 !important;
-
 }
-
-
 .font-darkpink:not(input){
     color: #8A0E50 !important;
-
 }
-
 .font-softpink{
     color: #B23577 !important;
-
 }
-
 .font-purple{
     color: #5C2DF9 !important;
-
 }
-
 .font-darkpurple{
     color: #271467 !important;
-
 }
-
 .font-softpurple{
     color: #715DB3 !important;
-
 }
-
-
-
 .font-primary{
     color: #1FB5F8 !important;
-
 }
-
-
 .font-blue{
     color: #265FFC !important;
-
 }
-
 .font-darkblue{
     color: #1C3885 !important;
-
 }
-
 .font-softblue{
     color: #546DB3 !important;
-
 }
-
-
 .font-green{
     color: #4EC541 !important;
-
 }
-
 .font-darkgreen{
     color: #616527 !important;
-    
-
 }
-
 .font-softgreen{
     color: #9BA234 !important;
-
 }
-
 .font-lightgreen{
     color: #26FB91 !important;
-
 }
-
-
 .font-orange{
     color: #FBAD26 !important;
-
 }
-
 .font-darkorange:not(input){
-    color: #9A6509 ;
-    
+    color: #9A6509 ;    
 }
-
 .font-softorange:not(input){
     color: #BD8D3A ;
-
 }
-
-
 .font-red{
     color: #F93636 !important;
-
 }
-
-
 .font-darkred{
-    color: #6C0D0D !important;
-    
+    color: #6C0D0D !important;   
 }
-
 .font-softred{
     color: #C34242 !important;
-
 }
-
 .font-dark{
     color: #292929 !important;
-
 }
-
 .font-gray{
     color: #9C9E9F !important;
-
 }
-
 .font-lightgray{
     color: #DFDFDF !important;
-
 }
-
 .font-white{
     color: #ffffff !important;
-
 }
 
