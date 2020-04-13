@@ -16,9 +16,9 @@ class actionstyles {
             var getclass= $(any).attr("class")
 
             if($(any).length != 0 && $(any).length <= 1){
-                var any2 = $(this).append("<div class='"+getclass+"'></div>")
+                $(this).append("<div class='"+getclass+"'></div>")
                 
-            }else if($(any).length >= 1){
+            }else if($(any).length >= 1 && $(item).attr('class') != "o-card"){
                 $(any).each(function(){
                 $(item).append("<div class='"+$(this).attr("class")+"'></div>")
             })
@@ -295,6 +295,9 @@ class Ocard{
  
      createstyle = () =>{
         this.ho_image()
+        var actionstyles1 = new actionstyles()
+        actionstyles1.gr_color("div.o-card ")
+
      }
 
      ho_image = () =>{
