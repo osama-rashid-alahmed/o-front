@@ -8,10 +8,10 @@ o-nav.large o-icons {
 o-nav.huge o-icons{
     margin-top: 16px;
 }
-o-nav ul{
+o-nav ul.list{
     padding-left: 0px;
 }
-o-nav ul li a {
+o-nav ul.list li a {
     font-size: 15px;
 }
 o-nav h1{

@@ -121,7 +121,7 @@ class Onav {
       
         // create the animation
        var actionstyles1 = new actionstyles()
-       actionstyles1.ho_top("o-nav ul li , o-nav ul li a ,o-nav o-icons img")
+       actionstyles1.ho_top("o-nav ul.list.ho-top li , o-nav ul.list.ho-top li a ,o-nav o-icons img.ho-top")
        actionstyles1.gr_color("o-nav")
        actionstyles1 = null
 
