@@ -3,6 +3,7 @@ div.o-card{
     position: relative;
     overflow: hidden;
     display: flow-root;
+    z-index: 1;
     }
 div.o-card.xcenter{
     width: 90% !important;
@@ -99,7 +100,7 @@ div.o-card.sh{
     height: 100%;
     margin: 0 auto;
     object-fit: cover;
-    position: absolute;
+    position: absolute !important;
     z-index: -1;
     display: block;
 }

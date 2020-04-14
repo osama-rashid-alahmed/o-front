@@ -15,14 +15,14 @@ class actionstyles {
             var any = $(item).children(".img-back")
             var getclass= $(any).attr("class")
 
-            if($(any).length != 0 && $(any).length <= 1){
+            //if($(any).length != 0 && $(any).length <= 1){
                 $(this).append("<div class='"+getclass+"'></div>")
                 
-            }else if($(any).length >= 1 && $(item).attr('class') != "o-card"){
-                $(any).each(function(){
-                $(item).append("<div class='"+$(this).attr("class")+"'></div>")
-            })
-        }
+        //     }else if($(any).length >= 1 && $(item).attr('class') != "o-card"){
+        //         $(any).each(function(){
+        //         $(item).append("<div class='"+$(this).attr("class")+"'></div>")
+        //     })
+        // }
 
       })
     }
