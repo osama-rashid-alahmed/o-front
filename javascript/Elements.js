@@ -12,19 +12,20 @@ class actionstyles {
    // this function for add gradient to the img-back
     gr_color   = (item) =>{
         $(item).each(function(){
-            var any = $(item).children(".img-back")
+            var any = $(this).children("img.img-back")
             var getclass= $(any).attr("class")
 
-            //if($(any).length != 0 && $(any).length <= 1){
-                $(this).append("<div class='"+getclass+"'></div>")
-                
+            if($(any).length != 0){
+                    $(this).append("<div class='"+getclass+"'></div>")
+
+            }
         //     }else if($(any).length >= 1 && $(item).attr('class') != "o-card"){
         //         $(any).each(function(){
         //         $(item).append("<div class='"+$(this).attr("class")+"'></div>")
         //     })
         // }
-
-      })
+    })
+      
     }
 
 // set up the bottom +-=2 animation

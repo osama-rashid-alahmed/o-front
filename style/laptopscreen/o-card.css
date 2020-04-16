@@ -104,20 +104,20 @@ div.o-card.sh{
     z-index: -1;
     display: block;
 }
-@media only screen and (min-width: 600px) { 
+@media only screen and (min-width: 700px) { 
 
 /* card sizes */
 div.o-card.x1{
-width: 24.89%;
+  width:calc(25% - 1.36px)
 }
 div.o-card.x2{
-    width: 49.89%;   
+    width:calc(50% - 1.36px)
 }
 div.o-card.y1{
-    height: 35%;   
+    height: calc(35% - 1.36px);   
 }
 div.o-card.y2{
-    height: 70%; 
+    height: calc(70% - 1.36px); 
 }
 div.o-card.xfull{
     width: 100%;

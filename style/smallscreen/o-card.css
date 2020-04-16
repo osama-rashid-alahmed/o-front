@@ -1,0 +1,14 @@
+@media only screen and (max-width: 699px) { 
+
+div.o-card.x2,
+div.o-card.x1{
+    width:calc(50% - 1.36px)
+}
+div.o-card.y1{
+    height: calc(35% - 1.36px);
+}
+div.o-card.y2{
+    height: calc(70% - 1.36px);
+}
+
+}
