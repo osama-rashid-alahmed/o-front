@@ -104,6 +104,12 @@ div.o-card.sh{
     z-index: -1;
     display: block;
 }
+div.o-card.xfull{
+    width: 100%;
+}
+div.o-card.yfull{
+    height: 100%;
+}
 @media only screen and (min-width: 700px) { 
 
 /* card sizes */
@@ -119,12 +125,7 @@ div.o-card.y1{
 div.o-card.y2{
     height: calc(70% - 1.36px); 
 }
-div.o-card.xfull{
-    width: 100%;
-}
-div.o-card.yfull{
-    height: 100%;
-}
+
 div.container-list div.o-card p{
     position: absolute;
     z-index: 1;

@@ -310,8 +310,9 @@ class Ocard{
     //            $(this).removeClass("ho-image")
     //        }
     //    })
+
     $('div.container-list div.o-card h2 , div.container-list div.o-card p').hide()
-    $("div.container-list div.o-card").each(function(){
+    $("div.o-card.ho-img").each(function(){
         var any1 = $(this).children('img')
         var any2 = $(this).children('h2')
         var any3 = $(this).children('p')
@@ -319,7 +320,7 @@ class Ocard{
         $(this).on({
             mouseenter: function(){
                 $(any1).addClass("ho-image")
-                 $(any2).slideDown(150 , function(){
+                $(any2).slideDown(150 , function(){
 
                  })
                  $(any3).slideDown(400 , function(){
