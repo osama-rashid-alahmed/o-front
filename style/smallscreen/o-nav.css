@@ -22,4 +22,35 @@ o-nav o-icons img {
     margin: 10px 10px 0px 10px;
     position: relative;     
 }
+o-nav div.list-mobile{
+    width: 100px;
+    height: 40px;
+    position: relative;
+    display: inline-block;
+}
+o-nav div.list-mobile.left{
+    float: left;
+}
+o-nav div.list-mobile.right{
+    float: right;
+}
+o-nav div.list-mobile ul.list{
+    background-color: #ffffff;
+    width: auto;
+    display: flow-root;
+    margin: 10px 0px 0px 0px;
+    font-size: 17px;
+    position: absolute;
+    padding-right: 5px;
+    height: auto;
+}
+o-nav div.list-mobile ul.list a{
+    text-decoration: none;
+    width: 150px !important;
+    color: inherit;
+    padding: 7px 0px 7px 5px;
+    position: relative !important;
+    width: 100%;
+    display: inline-block;
+}
 }
