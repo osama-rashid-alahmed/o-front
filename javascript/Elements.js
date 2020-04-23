@@ -113,8 +113,6 @@ class Onav {
     }
 
     createstyle = () =>{
-     $(document).ready(function(){
-
 
         $("o-nav h1").css({
           "cursor":"pointer"
@@ -125,16 +123,66 @@ class Onav {
        actionstyles1.ho_top("o-nav ul.list.ho-top li , o-nav ul.list.ho-top li a ,o-nav o-icons img.ho-top")
        actionstyles1.gr_color("o-nav")
        actionstyles1 = null
+        
 
 
     $('o-nav .showslide').click(function(){
         $('o-slide.closed').animate({width:'show'},350);
     })
-})
-
+   this.droplistmobile()
 
 
     }
+    droplistmobile = () =>{
+
+      
+
+        var button = $("div.list-mobile").children("button.drop-list-mobile");
+        var list = $("div.list-mobile").children("ul.list")
+
+        $(button).click(function(){        
+            if($(list).is(":hidden")){
+              $(list).show()
+            }else{
+              $(list).hide()
+            }
+          })
+   
+        if($(window).width() >= 800){
+            $(button).hide()
+            $(list).show()
+    }
+    else{
+
+        $(button).show()
+        $(list).hide()
+        
+        // $(button).click(function(){
+        //   if($(list).is(":hidden")){
+        //     $(list).show()
+        //   }else{
+        //     $(list).hide()
+
+        //   }
+        // })
+}
+        $(window).on("resize" , function(){
+        if($(window).width() >= 800){
+
+                $(button).hide()
+                $(list).show()
+        }
+       else{
+            $(button).show()
+            $(list).hide()
+          
+    }
+ 
+})
+
+
+}
+
 }
 
 
