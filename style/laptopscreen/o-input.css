@@ -10,46 +10,55 @@ input.o-input:focus {
 }
 
 /* colors of the input(just the text) */
+textarea.o-input.pink,
 input[type = text].o-input.pink,
 input[type = password].o-input.pink,
 input[type = email].o-input.pink{
     border-color: #FC0086 !important;
 }
+textarea.o-input.darkpink,
 input[type = text].o-input.darkpink,
 input[type = password].o-input.darkpink,
 input[type = email].o-input.darkpink{
     border-color: #8A0E50 !important;
 }
+textarea.o-input.softpink,
 input[type = text].o-input.softpink,
 input[type = password].o-input.softpink,
 input[type = email].o-input.softpink{
     border-color: #B23577 !important;
 }
+textarea.o-input.purple,
 input[type = text].o-input.purple,
 input[type = password].o-input.purple,
 input[type = email].o-input.purple{
     border-color: #5C2DF9 !important;
 }
+textarea.o-input.darkpurple,
 input[type = text].o-input.darkpurple,
 input[type = password].o-input.darkpurple,
 input[type = email].o-input.darkpurple{
     border-color: #271467 !important;
 }
+textarea.o-input.softpurple,
 input[type = text].o-input.softpurple,
 input[type = password].o-input.softpurple,
 input[type = email].o-input.softpurple{
     border-color: #715DB3 !important;
 }
+textarea.o-input.primary,
 input[type = text].o-input.primary,
 input[type = password].o-input.primary,
 input[type = email].o-input.primary{
     border-color: #1FB5F8 !important;
 }
+textarea.o-input.blue,
 input[type = text].o-input.blue,
 input[type = password].o-input.blue,
 input[type = email].o-input.primary{
     border-color: #265FFC !important;
 }
+textarea.o-input.darkblue,
 input[type = text].o-input.darkblue,
 input[type = password].o-input.darkblue,
 input[type = email].o-input.darkblue{
@@ -60,77 +69,92 @@ input[type = password].o-input.softblue,
 input[type = email].o-input.softblue{
     border-color: #546DB3 !important;
 }
+textarea.o-input.green,
 input[type = text].o-input.green,
 input[type = password].o-input.green,
 input[type = email].o-input.green{
     border-color: #4EC541 !important;
 }
+textarea.o-input.darkgreen,
 input[type = text].o-input.darkgreen,
 input[type = password].o-input.darkgreen,
 input[type = email].o-input.darkgreen{
     border-color: #616527 !important;
 }
+textarea.o-input.softgreen,
 input[type = text].o-input.softgreen,
 input[type = password].o-input.softgreen,
 input[type = email].o-input.softgreen{
     border-color: #9BA234 !important;
 }
+textarea.o-input.lightgreen,
 input[type = text].o-input.lightgreen,
 input[type = password].o-input.lightgreen,
 input[type = email].o-input.lightgreen{
     border-color: #26FB91 !important;
 }
+textarea.o-input.orange,
 input[type = text].o-input.orange,
 input[type = password].o-input.orange,
 input[type = text].o-input.orange{
     border-color: #FBAD26 !important;
 }
+textarea.o-input.darkorange,
 input[type = text].o-input.darkorange,
 input[type = password].o-input.darkorange,
 input[type = text].o-input.darkorange{
     border-color: #9A6509 !important;
 }
+textarea.o-input.softorange,
 input[type = text].o-input.softorange,
 input[type = password].o-input.softorange,
 input[type = text].o-input.softorange{
     border-color: #BD8D3A !important;
 }
+textarea.o-input.red,
 input[type = text].o-input.red,
 input[type = password].o-input.red,
 input[type = email].o-input.red{
     border-color: #F93636 !important;
 }
+textarea.o-input.darkred,
 input[type = text].o-input.darkred,
 input[type = password].o-input.darkred,
 input[type = email].o-input.darkred{
     border-color: #6C0D0D !important;
 }
+textarea.o-input.softred,
 input[type = text].o-input.softred,
 input[type = password].o-input.softred,
 input[type = email].o-input.softred{
     border-color: #C34242 !important;
 }
+textarea.o-input.dark,
 input[type = text].o-input.dark,
 input[type = password].o-input.dark,
 input[type = email].o-input.dark{
     border-color: #292929 !important;
 }
+textarea.o-input.gray,
 input[type = text].o-input.gray,
 input[type = password].o-input.gray,
 input[type = email].o-input.gray{
     border-color: #9C9E9F !important;
 }
+textarea.o-input.lightgray,
 input[type = text].o-input.lightgray,
 input[type = password].o-input.lightgray,
 input[type = email].o-input.lightgray{
     border-color:  #DFDFDF !important;
 }
+textarea.o-input.normal,
 input[type = text].o-input.normal,
 input[type = password].o-input.normal,
 input[type = email].o-input.normal{
     background-color: #ffffff !important;
     border: 1px solid #ced4da !important;
 }
+textarea.o-input.rd,
 input[type = text].o-input.rd,
 input[type = password].o-input.rd,
 input[type = email].o-input.rd{

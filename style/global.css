@@ -36,51 +36,51 @@ html , body{
     overflow-x: hidden;
     overflow-y: auto; 
 }
-.pink:not(input){
+.pink:not(input):not(textarea){
     background-color: #FC0086 !important;
     color: #ffffff ;
 }
-.darkpink:not(input){
+.darkpink:not(input):not(textarea){
     background-color: #8A0E50 !important;
     color: #ffffff ;
 }
-.softpink:not(input){
+.softpink:not(input):not(textarea){
     background-color: #B23577 !important;
     color: #ffffff ;
 }
-.purple:not(input){
+.purple:not(input):not(textarea){
     background-color: #5C2DF9 !important;
     color: #ffffff ;
 }
-.darkpurple:not(input){
+.darkpurple:not(input):not(textarea){
     background-color: #271467 !important;
     color: #ffffff ;
 }
-.softpurple:not(input){
+.softpurple:not(input):not(textarea){
     background-color: #715DB3 !important;
     color: #ffffff ;
 }
-.primary:not(input){
+.primary:not(input):not(textarea){
     background-color: #1FB5F8 !important;
     color: #ffffff ;
 }
-.blue:not(input){
+.blue:not(input):not(textarea){
     background-color: #265FFC !important;
     color: #ffffff ;
 }
-.darkblue:not(input){
+.darkblue:not(input):not(textarea){
     background-color: #1C3885 !important;
     color: #ffffff ;
 }
-.softblue:not(input){
+.softblue:not(input):not(textarea){
     background-color: #546DB3 !important;
     color: #ffffff ;
 }
-.green:not(input){
+.green:not(input):not(textarea){
     background-color: #4EC541 !important;
     color: #ffffff ;
 }
-.darkgreen:not(input){
+.darkgreen:not(input):not(textarea){
     background-color: #616527 !important;
     color: #ffffff ;
 }
@@ -88,59 +88,59 @@ html , body{
     background-color: #9BA234 !important;
     color: #ffffff ;
 }
-.lightgreen:not(input){
+.lightgreen:not(input):not(textarea){
     background-color: #26FB91 !important;
     color: #ffffff ;
 }
-.orange:not(input){
+.orange:not(input):not(textarea){
     background-color: #FBAD26 ;
     color: #ffffff;
 }
 
-.darkorange:not(input){
+.darkorange:not(input):not(textarea){
     background-color: #9A6509 ;
     color: #ffffff;
 }
 
-.softorange:not(input){
+.softorange:not(input):not(textarea){
     background-color: #BD8D3A ;
     color: #ffffff;
 }
-.red:not(input){
+.red:not(input):not(textarea){
     background-color: #F93636 !important;
     color: #ffffff ;
 }
-.darkred:not(input){
+.darkred:not(input):not(textarea){
     background-color: #6C0D0D !important;
     color: #ffffff ;
 }
-.softred:not(input){
+.softred:not(input):not(textarea){
     background-color: #C34242 !important;
     color: #ffffff ;
 }
-.dark:not(input){
+.dark:not(input):not(textarea){
     background-color: #292929 !important;
     color: #ffffff;
 }
-.gray:not(input){
+.gray:not(input):not(textarea){
     background-color: #9C9E9F !important;
     color: #292929;
 }
-.lightgray:not(input){
+.lightgray:not(input):not(textarea){
     background-color:  #DFDFDF !important;
     color: #292929;
 }
-.white:not(input){
+.white:not(input):not(textarea){
     background-color:  #ffffff !important;
     color: #292929;
 }
-.font-pink{
+.font-pink:not(textarea){
     color: #FC0086 !important;
 }
-.font-darkpink:not(input){
+.font-darkpink:not(input):not(textarea){
     color: #8A0E50 !important;
 }
-.font-softpink{
+.font-softpink:not(textarea){
     color: #B23577 !important;
 }
 .font-purple{
