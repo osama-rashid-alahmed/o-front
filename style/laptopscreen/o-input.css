@@ -5,8 +5,15 @@ form.o-form.center {
 form.o-form .title{
     text-align: center;
 }
+textarea.o-input,
 input.o-input:focus {
     outline: none;
+}
+textarea.o-input{
+    border-width: 2.5px;
+}
+textarea.o-input.rd{
+    border-radius: 3px;
 }
 
 /* colors of the input(just the text) */
@@ -154,7 +161,6 @@ input[type = email].o-input.normal{
     background-color: #ffffff !important;
     border: 1px solid #ced4da !important;
 }
-textarea.o-input.rd,
 input[type = text].o-input.rd,
 input[type = password].o-input.rd,
 input[type = email].o-input.rd{
