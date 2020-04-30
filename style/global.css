@@ -37,59 +37,59 @@ html , body{
     overflow-y: auto; 
 }
 .pink:not(input):not(textarea){
-    background-color: #FC0086 !important;
+    background-color: #FC0086 ;
     color: #ffffff ;
 }
 .darkpink:not(input):not(textarea){
-    background-color: #8A0E50 !important;
+    background-color: #8A0E50 ;
     color: #ffffff ;
 }
 .softpink:not(input):not(textarea){
-    background-color: #B23577 !important;
+    background-color: #B23577 ;
     color: #ffffff ;
 }
 .purple:not(input):not(textarea){
-    background-color: #5C2DF9 !important;
+    background-color: #5C2DF9 ;
     color: #ffffff ;
 }
 .darkpurple:not(input):not(textarea){
-    background-color: #271467 !important;
+    background-color: #271467 ;
     color: #ffffff ;
 }
 .softpurple:not(input):not(textarea){
-    background-color: #715DB3 !important;
+    background-color: #715DB3 ;
     color: #ffffff ;
 }
 .primary:not(input):not(textarea){
-    background-color: #1FB5F8 !important;
+    background-color: #1FB5F8 ;
     color: #ffffff ;
 }
 .blue:not(input):not(textarea){
-    background-color: #265FFC !important;
+    background-color: #265FFC ;
     color: #ffffff ;
 }
 .darkblue:not(input):not(textarea){
-    background-color: #1C3885 !important;
+    background-color: #1C3885 ;
     color: #ffffff ;
 }
 .softblue:not(input):not(textarea){
-    background-color: #546DB3 !important;
+    background-color: #546DB3 ;
     color: #ffffff ;
 }
 .green:not(input):not(textarea){
-    background-color: #4EC541 !important;
+    background-color: #4EC541 ;
     color: #ffffff ;
 }
 .darkgreen:not(input):not(textarea){
-    background-color: #616527 !important;
+    background-color: #616527 ;
     color: #ffffff ;
 }
 .softgreen:not(input){
-    background-color: #9BA234 !important;
+    background-color: #9BA234 ;
     color: #ffffff ;
 }
 .lightgreen:not(input):not(textarea){
-    background-color: #26FB91 !important;
+    background-color: #26FB91 ;
     color: #ffffff ;
 }
 .orange:not(input):not(textarea){
@@ -107,32 +107,29 @@ html , body{
     color: #ffffff;
 }
 .red:not(input):not(textarea){
-    background-color: #F93636 !important;
+    background-color: #F93636 ;
     color: #ffffff ;
 }
 .darkred:not(input):not(textarea){
-    background-color: #6C0D0D !important;
+    background-color: #6C0D0D ;
     color: #ffffff ;
 }
 .softred:not(input):not(textarea){
-    background-color: #C34242 !important;
+    background-color: #C34242 ;
     color: #ffffff ;
 }
 .dark:not(input):not(textarea){
-    background-color: #292929 !important;
+    background-color: #292929 ;
     color: #ffffff;
 }
 .gray:not(input):not(textarea){
-    background-color: #9C9E9F !important;
-    color: #292929;
+    background-color: #9C9E9F ;
 }
 .lightgray:not(input):not(textarea){
-    background-color:  #DFDFDF !important;
-    color: #292929;
+    background-color:  #DFDFDF ;
 }
 .white:not(input):not(textarea){
-    background-color:  #ffffff !important;
-    color: #292929;
+    background-color:  #ffffff ;
 }
 .font-pink:not(textarea){
     color: #FC0086 !important;

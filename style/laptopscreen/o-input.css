@@ -406,7 +406,6 @@ form.o-form.huge input[type = email].o-input{
      position: relative;
      float: left;
      top:10px;
-     background-color: #292929;
      width: 100px;
      height: 41px !important;
      border-radius: 3px 0px 0px 3px;

@@ -92,7 +92,7 @@ class Onav {
             }
         })
         // check the size of the window
-        if($(window).width() >= 800){
+        if($(window).width() >= 700){
             $(button).hide()
             $(list).show()
         }else{
@@ -100,7 +100,7 @@ class Onav {
             $(list).hide()
         }
         $(window).on("resize" , function(){
-            if($(window).width() >= 800){
+            if($(window).width() >= 700){
                 $(button).hide()
                 $(list).show()
             }else{
@@ -109,7 +109,6 @@ class Onav {
             }
         })
     }
-
 }
 // o-slide element
 class Oslide{

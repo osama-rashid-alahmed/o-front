@@ -105,8 +105,13 @@ o-nav o-icons img {
     margin: 10px 20px 0px 10px;
     position: relative;   
 }
-}
 
+}
+@media only screen and (min-width: 700px) {
+o-nav div.list-mobile ul.list{
+    background-color: transparent !important;
+}
+}
 /* the image background style */
 
 

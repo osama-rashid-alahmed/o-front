@@ -1,12 +1,10 @@
 @media only screen and (max-width : 599px){
-
 form.o-form{
     margin: 10px;
     width: 90%;
     height: auto;
     display: flow-root;
 }
-
 input[type= text].o-input,
 input[type= password].o-input,
 input[type= email].o-input{
@@ -16,15 +14,12 @@ input[type= email].o-input{
     border: 2.2px solid #1FB5F8;
     border-radius: 3px;
     font-size: 16px !important;
-    
 }
 form.o-form input[type= text].o-input,
 form.o-form input[type= password].o-input,
 form.o-form input[type= email].o-input{
     width: 97% !important;
 }
-
-
 div.iconinput{
     width: 290px;
     position: relative;
@@ -35,13 +30,12 @@ div.iconinput input.o-input{
     width: 200px;
     border-radius: 0px 3px 3px 0px;
     border-width: 1px !important;
-  }
-  div.iconinput span.icon{
+}
+div.iconinput span.icon{
     margin: 0px;
     position: relative;
     float: left;
     top:10px;
-    background-color: #292929;
     width: 78px;
     height: 41px !important;
     border-radius: 3px 0px 0px 3px;

@@ -9,7 +9,7 @@ o-nav.huge o-icons{
     margin-top: 16px;
 }
 o-nav ul.list{
-    padding-left: 0px;
+    padding-left: 10px;
 }
 o-nav ul.list li a {
     font-size: 15px;
@@ -22,6 +22,9 @@ o-nav o-icons img {
     margin: 10px 10px 0px 10px;
     position: relative;     
 }
+}
+
+@media only screen and (max-width : 699px){ 
 o-nav div.list-mobile{
     width: 100px;
     height: 40px;
@@ -35,7 +38,6 @@ o-nav div.list-mobile.right{
     float: right;
 }
 o-nav div.list-mobile ul.list{
-    background-color: #ffffff;
     width: auto;
     display: flow-root;
     margin: 10px 0px 0px 0px;
@@ -52,5 +54,78 @@ o-nav div.list-mobile ul.list a{
     position: relative !important;
     width: 100%;
     display: inline-block;
+}
+o-nav div.list-mobil ul.list.pink{
+    background-color: #FC0086 !important;
+}
+o-nav div.list-mobile ul.list.darkpink{
+    background-color: #8A0E50 !important;
+}
+o-nav div.list-mobile ul.list.softpink{
+    background-color: #B23577 !important;
+}
+o-nav div.list-mobile ul.list.purple{
+    background-color: #5C2DF9 !important;
+}
+o-nav div.list-mobile ul.list.darkpurple{
+    background-color: #271467 !important;
+}
+o-nav div.list-mobile ul.list.softpurple{
+    background-color: #715DB3 !important;
+}
+o-nav div.list-mobile ul.list.primary{
+    background-color: #1FB5F8 !important;
+}
+o-nav div.list-mobile ul.list.blue{
+    background-color: #265FFC !important;
+}
+o-nav div.list-mobile ul.list.darkblue{
+    background-color: #1C3885 !important;
+}
+o-nav div.list-mobile ul.list.softblue{
+    background-color: #546DB3 !important;
+}
+o-nav div.list-mobile ul.list.green{
+    background-color: #4EC541 !important;
+}
+o-nav div.list-mobile ul.list.darkgreen{
+    background-color: #616527 !important;
+}
+o-nav div.list-mobile ul.list.softgreen{
+    background-color: #9BA234 !important;
+}
+o-nav div.list-mobile ul.list.lightgreen{
+    background-color: #26FB91 !important;
+}
+o-nav div.list-mobile ul.list.orange{
+    background-color: #FBAD26 !important;
+}
+o-nav div.list-mobile ul.list.darkorange{
+    background-color: #9A6509 !important;
+}
+o-nav div.list-mobile ul.list.softorange{
+    background-color: #BD8D3A !important;
+}
+o-nav div.list-mobile ul.list.red{
+    background-color: #F93636 !important;
+}
+o-nav div.list-mobile ul.list.darkred{
+    background-color: #6C0D0D !important;
+}
+o-nav div.list-mobile ul.list.softred{
+    background-color: #C34242 !important;
+}
+o-nav div.list-mobil ul.list.dark{
+    background-color: #292929 !important;
+}
+o-nav div.list-mobile ul.list.gray{
+    background-color: #9C9E9F !important;
+}
+o-nav div.list-mobile ul.list.lightgray{
+    background-color: #DFDFDF !important;
+    font: #ffffff;
+}
+o-nav div.list-mobile ul.list.white{
+    background-color: #ffffff !important;
 }
 }
