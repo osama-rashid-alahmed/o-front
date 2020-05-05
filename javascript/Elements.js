@@ -187,25 +187,15 @@ class Ocard{
         actionstyles1.gr_color("div.o-card ")
     }
     ho_image = () =>{
-        $('div.container-list div.o-card h2 , div.container-list div.o-card p').hide()
+        // $('div.o-card.ho-img h2 , div.o-card.ho-img p').hide()
         $("div.o-card.ho-img").each(function(){
             var any1 = $(this).children('img')
-            var any2 = $(this).children('h2')
-            var any3 = $(this).children('p')
             $(this).on({
                 mouseenter: function(){
                     $(any1).addClass("ho-image")
-                    $(any2).slideDown(150 , function(){
-                    })
-                    $(any3).slideDown(400 , function(){
-                    })
                 },
                 mouseleave: function(){
                     $(any1).removeClass("ho-image")
-                    $(any2).slideUp(150 , function(){
-                    })
-                    $(any3).slideUp(400 , function(){     
-                    })
                 }   
             })
         })

@@ -4,49 +4,21 @@ div.o-card{
     overflow: hidden;
     display: flow-root;
     z-index: 1;
-    }
+}
 div.o-card.xcenter{
     width: 90% !important;
     margin: 0 auto;
-        
 }
 div.o-card.center{
     margin: 0 auto;
-}
-
-div.o-card.head *:not(img):not(button){
-    /* float: left; */
-    position: absolute ;
-    z-index: 1;
-    width: 100%;
-    /* left: 47% !important; */
-}
-div.o-card.head div *{
-    position: relative !important;
 }
 div.o-card  .center{
     position: relative;
     text-align: center;
     top: 30%;
 }
-div.o-card.head .center-bottom{
-    text-align: center;
-    top: 50%;
-}
-div.o-card.head .center-top{
-    text-align: center;
-    top: 20%;
-}
-div.o-card.head  .left{
-    top: 35%;
-    left: 2%;  
-}
 div.o-card.rd{
     border-radius: 10px;
-}
-div.o-card.head  .left:not(button){
-    text-align: left;
-    width: 30%;  
 }
 div.o-card.left{
     float: left;
@@ -153,21 +125,4 @@ div.o-card.y2{
 div.o-card.y3{
     height: calc(75% - 1.36px); 
 }
-
-div.container-list div.o-card p{
-    position: absolute;
-    z-index: 1;
-    margin: 80px 40px;
-    top: 30px;
-}
-div.container-list{
-    width: 90%;
-    height: 100%;
-    margin: 0 5%;
-}
-div.container-list div.o-card{
-    margin:  20px 50px;
-}
-
-
 }
