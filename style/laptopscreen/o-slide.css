@@ -1,232 +1,118 @@
-
- 
-    o-slide{
-        width: 250px;
-        height: 100% ;
-        background-color : #1FB5F8;
-        position: fixed;
-        top: 0px;
-        z-index: 10;
-        overflow-y: auto;
-        overflow-x: hidden;
-        table-layout: fixed;
-        
-    }
-
-    o-slide.right{
-        right: 0px;
-
-    }
-
-    o-slide.left{
-        left:0px
-    }
-
-    o-slide.dark ul.list li,
-    o-slide.dark o-icons{
-        border-color: #d3cdcd !important;
-    }
-
-
-    o-slide o-icons{
-        width: 250px !important;
-        /* margin-bottom: 20px !important; */
-        display: block !important;
-        height: 30px !important;
-        /* border-top: 1px groove gray; */
-        /* border-bottom: 1px groove gray; */
-        padding-bottom: 18px;
-        
-
-        
-    }
-
-    o-slide o-icons img{
-        margin: 10px 10px 20px 10px !important;
-        width: 30px;
-        position: relative;
-    }
-
-    
-    o-slide o-icons img.right{
-        float: right !important;
-        
-    }
-
-    
-    o-slide o-icons img.left{
-        float: left !important;
-    }
-
-   o-slide div.image-container{
-        width: 250px;
-        position: relative;
-        height: 200px;
-        display: flow-root;
-        left: 0px;
-        right: 0px;
-        
-        
-    }
-
-    o-slide .text-logo{
-        margin: 3px 0px 15px 20px ;
-        text-align: left;
-        position: relative;
-        right: 0px;
-        width: 250px;
-    }
-    o-slide .text-logo.center{
-        text-align: center;
-        margin: 3px 0px 15px 0px;
-    }
-
-    o-slide .text-logo.left{
-        text-align: left !important;
-    }
-    o-slide .text-logo.right{
-        text-align: right !important;
-        margin: 3px 0px 15px 0px !important;
-        right: 20px;
-    }
-
-
-  
-
-    o-slide div.image-container img.image-header{
-        width: 250px;
-        margin-bottom: 5px;
-    }
-    o-slide div.image-container h1 ,
-    o-slide div.image-container h2,
-    o-slide div.image-container h3,
-    o-slide div.image-container h4,
-    o-slide div.image-container h5,
-    o-slide div.image-container h6{
-        position: absolute;
-        color: white;
-        left: 18%;
-        width: 250px;
-        
-    }
-
-    o-slide div.image-container img.image-bio{
-        position: absolute;
-        height: 100px;
-        width: 100px;
-        border-radius: 50%;
-        margin-left: 35%;
-        top: 20px;
-        box-shadow: 1px 8px 8px #000000 ;
-        
-    }
-
-    o-slide.left div.image-container img.image-bio{
-
-        margin-left: 30%;
-
-    }
-
-    o-slide div.image-container p.text-bio{
-      position: absolute;
-      text-align: center;
-      width: 100%;
-      left: 0px;
-      right: 0px;
-      color: #ffff;
-      top: 60%;
-      margin-left: 10px;
-
-        
-    }
-
-    o-slide div.image-container p.text-bio{
-
-        margin-left: 5px;
-  
-          
-      }
-
-    o-slide ul.list{
-        margin-top: 20px;
-        width: 250px;
-        padding: 0px;
-        position: relative;
-        left: 0px;
-        right: 0px;
-
-    }
-
- 
-
-     o-slide ul.list li a{
-        color:inherit;
-        text-decoration: none;
-
-     }
-
-     
-     o-slide ul.list li a img,
-     o-slide ul.list li img{
-      width: 25px;
-      margin-top: 3px;
-
-     }
-
-     o-slide ul.list li a img.left,
-     o-slide ul.list li img.left{
+o-slide{
+    width: 250px;
+    height: 100% ;
+    background-color : #1FB5F8;
+    position: fixed;
+    top: 0px;
+    z-index: 10;
+    overflow-y: auto;
+    overflow-x: hidden;
+    table-layout: fixed;   
+}
+o-slide.right{
+    right: 0px;
+}
+o-slide.left{
+    left:0px
+}
+o-slide.dark ul.list li,
+o-slide.dark o-icons{
+    border-color: #d3cdcd !important;
+}
+o-slide o-icons{
+    width: 250px !important;
+    /* margin-bottom: 20px !important; */
+    display: block !important;
+    height: 30px !important;
+    /* border-top: 1px groove gray; */
+    /* border-bottom: 1px groove gray; */
+    padding-bottom: 18px;     
+}
+o-slide o-icons img{
+    margin: 10px 10px 20px 10px !important;
+    width: 30px;
+    position: relative;
+}  
+o-slide o-icons img.right{
+    float: right !important;     
+}   
+o-slide o-icons img.left{
+    float: left !important;
+}
+o-slide .text-logo{
+    margin: 3px 0px 15px 20px ;
+    text-align: left;
+    position: relative;
+    right: 0px;
+    width: 250px;
+}
+o-slide .text-logo.center{
+    text-align: center;
+    margin: 3px 0px 15px 0px;
+}
+o-slide .text-logo.left{
+    text-align: left !important;
+}
+o-slide .text-logo.right{
+    text-align: right !important;
+    margin: 3px 0px 15px 0px !important;
+    right: 20px;
+} 
+o-slide ul.list{
+    margin-top: 20px;
+    width: 250px;
+    padding: 0px;
+    position: relative;
+    left: 0px;
+    right: 0px;
+}
+o-slide ul.list li a{
+    color:inherit;
+    text-decoration: none;
+}  
+o-slide ul.list li a img,
+o-slide ul.list li img{
+    width: 25px;
+    margin-top: 3px;
+}
+o-slide ul.list li a img.left,
+o-slide ul.list li img.left{
     float: left;
     margin-right: 10px;
+}
+o-slide ul.list li a img.right,
+o-slide ul.list li img.right{
+    float: right;
+    margin-left: 10px;
+}     
+o-slide ul.list li {
+    display: inline-block;
+    font-size: 25px;
+    width: 90%;
+    position: relative;
+    margin-bottom: 0px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    right: 0px;
+    left: 0px;
+    padding-left: 20px;
+}
+o-slide ul.list li.ho-right-class {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+o-slide ul.list.br li{
+    border-bottom: 0.5px groove rgba(0, 0, 0, 0.3);
+}
 
-
-     }
-
-     o-slide ul.list li a img.right,
-     o-slide ul.list li img.right{
-      float: right;
-      margin-left: 10px;
-
-     }
-
-
-     
-     
-     o-slide ul.list li {
-        display: inline-block;
-        font-size: 25px;
-        width: 90%;
-        position: relative;
-        margin-bottom: 0px;
-        padding-bottom: 10px;
-        padding-top: 10px;
-        right: 0px;
-        left: 0px;
-        padding-left: 20px;
-     }
-
-     o-slide ul.list li.ho-right-class {
-      background-color: rgba(0, 0, 0, 0.1);
-     }
-
-     o-slide ul.list.br li{
-        border-bottom: 0.5px groove rgba(0, 0, 0, 0.3);
-
-     }
-
-
-
-     /* o-slide basic ul style list */
-
-
-    ul.ho-color li{
-        font-size: 20px !important;
-        transition: .2s all;
-    }
-
-    ul.ho-color li:hover{
-        background-color: rgba(0, 0, 0, 0.1);
-        transition-delay: 0s;
-    }
+/* o-slide basic ul style list */
+ul.ho-color li{
+    font-size: 20px !important;
+    transition: .2s all;
+}
+ul.ho-color li:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+    transition-delay: 0s;
+}
 
 /* the image background style */
 o-slide img.img-back{

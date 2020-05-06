@@ -45,6 +45,7 @@ div.o-card img{
     top: 2.5px;
     transform: scale(1);
     transition: all 1s;
+    z-index: -1;
 }
 div.o-card img.cover{
     object-fit: cover;
