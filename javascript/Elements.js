@@ -201,9 +201,11 @@ class Ocard{
         })
     }
 }
-const oslide = new Oslide()
-const onav = new Onav()
-const ofooter = new Ofooter()
-const obutton = new Obutton()
-const oinput = new Oinput()
-const ocard = new Ocard()
+$(document).ready(function() {
+    const oslide = new Oslide()
+    const onav = new Onav()
+    const ofooter = new Ofooter()
+    const obutton = new Obutton()
+    const oinput = new Oinput()
+    const ocard = new Ocard()
+});
