@@ -98,7 +98,11 @@ o-nav.huge o-icons{
     margin-top: 15px;
 }
 o-nav h1{
-    margin: 8px 20px 4px 20px
+    margin: 8px 20px 4px 10px
+}
+o-nav img.logo{
+    width: 150px;
+    margin: 10px 20px 4px 20px
 }
 o-nav o-icons img {
     width: 30px;

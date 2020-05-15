@@ -22,8 +22,11 @@ o-nav o-icons img {
     margin: 10px 10px 0px 10px;
     position: relative;     
 }
+o-nav img.logo{
+    width: 130px;
+    margin: 10px 10px 4px 20px
 }
-
+}
 @media only screen and (max-width : 699px){ 
 o-nav div.list-mobile{
     width: 100px;
