@@ -89,7 +89,12 @@ o-nav.large img.img-back{
 o-nav.huge img.img-back{
     height: 90px;
 }
-
+o-nav img.logo.left{
+    float: left;
+}
+o-nav img.logo.rigth{
+    float: right;
+}
 @media only screen and (min-width: 800px) {
 o-nav.large o-icons {
     margin-top: 10px !important;
