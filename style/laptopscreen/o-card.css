@@ -9,14 +9,59 @@ div.o-card.xcenter{
     width: 90% !important;
     margin: 0 auto;
 }
-div.o-card.center{
-    margin: 0 auto;
+div.o-card.center-center{
+    text-align: center;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
-div.o-card  .center{
+div.o-card.center-left{
+    float: left;
+    text-align: left;
+    top: 50%;
+    transform: translate(1%, -50%);
+}
+div.o-card.center-right{
+    float: right;
+    text-align: right;
+    top: 50%;
+    transform: translate(-1%, -50%);
+}
+div.o-card.top-center{
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%, -5%);
+}
+div.o-card.top-left{
+    float: left;
+    text-align: left;
+    transform: translate(1%,-5%);
+}
+div.o-card.top-right{
+    float: right;
+    text-align: right;
+    transform: translate(-1%, -5%);
+}
+div.o-card.bottom-center{
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%,50%);
+}
+div.o-card.bottom-left{
+    float: left;
+    text-align: left;
+    transform: translate(1%,50%);
+}
+div.o-card.bottom-right{
+    float: right;
+    text-align: right;
+    transform: translate(-1%,50%);
+}
+/* div.o-card  .center{
     position: relative;
     text-align: center;
     top: 30%;
-}
+} */
 div.o-card.rd{
     border-radius: 10px;
 }
