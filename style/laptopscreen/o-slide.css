@@ -8,12 +8,18 @@ o-slide{
     overflow-y: auto;
     overflow-x: hidden;
     table-layout: fixed;   
+    display: none;
+}
+o-slide.closed{
+    position: sticky;
 }
 o-slide.right{
     right: 0px;
+    float:right
 }
 o-slide.left{
-    left:0px
+    left:0px;
+    float: left;
 }
 o-slide.dark ul.list li,
 o-slide.dark o-icons{
@@ -29,8 +35,8 @@ o-slide o-icons{
     padding-bottom: 18px;     
 }
 o-slide o-icons img{
-    margin: 10px 10px 20px 10px !important;
-    width: 30px;
+    margin: 10px 7.5px 20px 7.5px !important;
+    width: 35px;
     position: relative;
 }  
 o-slide o-icons img.right{
@@ -39,21 +45,21 @@ o-slide o-icons img.right{
 o-slide o-icons img.left{
     float: left !important;
 }
-o-slide .text-logo{
+o-slide .logo{
     margin: 3px 0px 15px 20px ;
     text-align: left;
     position: relative;
     right: 0px;
     width: 250px;
 }
-o-slide .text-logo.center{
+o-slide .logo.center{
     text-align: center;
     margin: 3px 0px 15px 0px;
 }
-o-slide .text-logo.left{
+o-slide .logo.left{
     text-align: left !important;
 }
-o-slide .text-logo.right{
+o-slide .logo.right{
     text-align: right !important;
     margin: 3px 0px 15px 0px !important;
     right: 20px;
@@ -72,8 +78,10 @@ o-slide ul.list li a{
 }  
 o-slide ul.list li a img,
 o-slide ul.list li img{
-    width: 25px;
-    margin-top: 3px;
+    position: relative;
+    width: 30px;
+    margin-top: 5px;
+    bottom: 5px;
 }
 o-slide ul.list li a img.left,
 o-slide ul.list li img.left{
@@ -95,7 +103,7 @@ o-slide ul.list li {
     padding-top: 10px;
     right: 0px;
     left: 0px;
-    padding-left: 20px;
+    padding-left: 25px;
 }
 o-slide ul.list li.ho-right-class {
     background-color: rgba(0, 0, 0, 0.1);
@@ -106,14 +114,12 @@ o-slide ul.list.br li{
 
 /* o-slide basic ul style list */
 ul.ho-color li{
-    font-size: 20px !important;
     transition: .2s all;
 }
 ul.ho-color li:hover{
     background-color: rgba(0, 0, 0, 0.1);
     transition-delay: 0s;
 }
-
 /* the image background style */
 o-slide img.img-back{
     width: 100%;
@@ -123,4 +129,10 @@ o-slide img.img-back{
     position: absolute;
     z-index: -1;
     display: block;
+}
+
+@media only screen and (max-width: 800px) { 
+o-slide{
+    position: fixed !important;
+}
 }
