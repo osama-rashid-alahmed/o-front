@@ -37,10 +37,11 @@ class actionstyles {
                  $(this).addClass(styleclass)
              },
              mouseleave : function(){
+                 
                  $(this).animate({
                      "padding-left" : "-=10px"
                  },200)
-                 $(this).removeClass(styleclass)    
+                 $(this).removeClass(styleclass)
              }
          })     
      }
@@ -75,9 +76,7 @@ class actionstyles {
         actionstyles1.ho_top("o-nav ul.list.ho-top li , o-nav ul.list.ho-top li a ,o-nav o-icons img.ho-top")
         actionstyles1.gr_color("o-nav")
         actionstyles1 = null
-         $('o-nav .showslide').click(function(){
-             $('o-slide.closed').animate({width:'show'},350);
-         })
+
          this.droplistmobile()
      }
      // when the screen get smaller, the ul list in the nav will be like a dropbutton
@@ -116,17 +115,22 @@ class actionstyles {
          this.createstyle()
      }
      createstyle = () =>{
-         $('o-slide.closed').hide()
- 
-         $('o-slide o-icons img.closeslide').click(function(){
-             $('o-slide ').animate({width:'hide'},350)      
-         })
+
          // create the animation
          var actionstyles1 = new actionstyles()
          actionstyles1.ho_top("o-slide o-icons img , o-slide ul.list.ho-top li")
          actionstyles1.ho_right(" o-slide ul.list.ho-right li" , "ho-right-class")
          actionstyles1.gr_color("o-slide")
          actionstyles1 = null
+
+         $('.showslide').click(function(){
+            if($('o-slide').is(":hidden")){
+               $('o-slide').animate({width:'show'},350);
+            }else{
+               $('o-slide').animate({width:'hide'},350);
+
+            }
+        })
      }
  }
  //o-footer element
