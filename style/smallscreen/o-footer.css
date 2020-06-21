@@ -8,10 +8,26 @@ o-footer div.hold-50 li,
 o-footer div.hold-50 p{
     font-size: 18px;
 }
-o-footer div h1.title,
-o-footer div h2.title,
-o-footer div h3.title,
-o-footer div h4.title{
+o-footer div .title{
 margin: 10px 10px 20px 10px;
+}
+}
+
+@media only screen and (max-width: 499px) { 
+o-footer div.hold-75 .title,
+o-footer div.hold-25 .title,
+o-footer div.hold-50 .title{
+    font-size: 16px !important;
+}
+o-footer div.hold-75 a,
+o-footer div.hold-75 li,
+o-footer div.hold-75 p,
+o-footer div.hold-25 a,
+o-footer div.hold-25 li,
+o-footer div.hold-25 p,
+o-footer div.hold-50 a,
+o-footer div.hold-50 li,
+o-footer div.hold-50 p{
+    font-size: 14px !important;
 }
 }
