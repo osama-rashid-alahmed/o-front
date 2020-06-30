@@ -1,39 +1,135 @@
-
 button.bt{
- width: 100px;
- height: 40px;
- border-radius: 3px;
- border: none;
- margin: 5px;
- color: white;
- text-align: center;
- position: relative !important;
- cursor: pointer;
- 
+    width: 100px;
+    height: 40px;
+    border-radius: 3px;
+    border: none;
+    margin: 5px;
+    color: white;
+    text-align: center;
+    position: relative !important;
+    cursor: pointer;
 }
 
+/* button br style */
+button.bt.br{
+    background-color: transparent;
+    border-style: solid;
+    border-width: 2.48px;
+}
+button.bt.br.pink{
+    border-color: #FC0086;
+    color: #FC0086;
+}
+button.bt.br.darkpink{
+    border-color: #8A0E50;
+    color: #8A0E50;
+}
+button.bt.br.softpink{
+    border-color: #B23577;
+    color: #B23577;
+}
+button.bt.br.purple{
+    border-color: #5C2DF9;
+    color: #5C2DF9;
+}
+button.bt.br.darkpurple{
+    border-color: #271467;
+    color: #271467;
+}
+button.bt.br.softpurple{
+    border-color: #715DB3;
+    color: #715DB3;
+}
+button.bt.br.primary{
+    border-color: #1FB5F8;
+    color: #1FB5F8;
+}
+button.bt.br.blue{
+    border-color: #265FFC;
+    color: #265FFC;
+}
+button.bt.br.darkblue{
+    border-color: #1C3885;
+    color: #1C3885;
+}
+button.bt.br.softblue{
+    border-color: #546DB3;
+    color: #546DB3;
+}
+button.bt.br.green{
+    border-color: #4EC541;
+    color: #4EC541;
+}
+button.bt.br.darkgreen{
+    border-color: #616527;
+    color: #616527;
+}
+button.bt.br.softgreen{
+    border-color: #9BA234;
+    color: #9BA234;
+}
+button.bt.br.lightgreen{
+    border-color: #26FB91;
+    color: #26FB91;
+}
+button.bt.br.orange{
+    border-color: #FBAD26;
+    color: #FBAD26;
+}
+button.bt.br.darkorange{
+    border-color: #9A6509;
+    color: #9A6509;
+}
+button.bt.br.softorange{
+    border-color: #BD8D3A;
+    color: #BD8D3A;
+}
+button.bt.br.red{
+    border-color: #F93636;
+    color: #F93636;
+}
+button.bt.br.darkred{
+    border-color: #6C0D0D;
+    color: #6C0D0D;
+}
+button.bt.br.softred{
+    border-color: #C34242;
+    color: #C34242;
+}
+button.bt.br.dark{
+    border-color: #292929;
+    color: #292929;
+}
+button.bt.br.gray{
+    border-color: #9C9E9F;
+    color: #9C9E9F;
+}
+button.bt.br.lightgray{
+    border-color: #DFDFDF;
+    color: #DFDFDF;
+}
+button.bt.br.white{
+    border-color: #ffffff;
+    color: #ffffff;
+}
 button.bt.big{
     width: 13em !important;
     font-size: 17px;
 }
-
 button.bt.large{
     width: 20em !important;
     font-size: 19px;
 }
-
 button.bt.huge{
     width: 25em !important;
     font-size: 20px;
 }
-
 button.bt.left{
     float: left !important;
 }
 button.bt.right{
     float: right !important;
 }
-
 button.bt.littleleft{
     float: left !important;
     left: 15%;
@@ -42,69 +138,43 @@ button.bt.littleright{
     float: right !important;
     right: 15%;
 }
-
 button.bt.center{
-   left: 35% !important;
-    
+   left: 35% !important;  
 }
-
-
-
 button.bt.rd {
     border-radius: 30px !important;
 }
-
 button.bt.sh {
     box-shadow: 0px 2px 4px #505050;;
 }
 
-
-
-/* this is the border buttons style */
-
-
-
-
-
 /* buttons icons */
-
-
 button.bt.large.icon{
-display: inline-block;
+    display: inline-block;
 }
-
 button.bt.large.icon p{
- margin: 1.5px 0px 0px 28% ;
- padding: 0;
- float: left;
- font-size: 18px;
-    
+    margin: 1.5px 0px 0px 28% ;
+    padding: 0;
+    float: left;
+    font-size: 18px;
 }
-
 button.bt.large.icon img{
     position: relative;
     width: 23px;
     margin-left: 10px;
-
-
 }
-
-
 button.bt.huge.icon p{
     margin: 1.5px 0px 0px 32% ;
     padding: 0;
     float: left;
-    font-size: 18px;
-       
-   }
-   
-   button.bt.huge.icon img{
-       position: relative;
-       width: 23px;
-       margin-left: 5px;
-   
-   
-   }
+    font-size: 18px;  
+}
+button.bt.huge.icon img{
+    position: relative;
+    width: 23px;
+    margin-left: 5px;
+}
+
 
    
    
