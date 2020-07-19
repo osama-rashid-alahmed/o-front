@@ -2,6 +2,12 @@ form.o-form.center {
     margin-left: auto;
     margin-right: auto;
 }
+form.o-form.left{
+    float: left;
+}
+form.o-form.right{
+    float: right;
+}
 form.o-form .title{
     text-align: center;
 }
@@ -14,6 +20,15 @@ textarea.o-input{
 }
 textarea.o-input.rd{
     border-radius: 3px;
+}
+input.o-input.left{
+    float: left;
+}
+input.o-inptut.right{
+    float: right;
+}
+input.o-input.sh {
+    box-shadow: 0px 2px 4px #505050;;
 }
 
 /* colors of the input(just the text) */
@@ -62,7 +77,7 @@ input[type = email].o-input.primary{
 textarea.o-input.blue,
 input[type = text].o-input.blue,
 input[type = password].o-input.blue,
-input[type = email].o-input.primary{
+input[type = email].o-input.blue{
     border-color: #265FFC !important;
 }
 textarea.o-input.darkblue,
@@ -154,13 +169,7 @@ input[type = password].o-input.lightgray,
 input[type = email].o-input.lightgray{
     border-color:  #DFDFDF !important;
 }
-textarea.o-input.normal,
-input[type = text].o-input.normal,
-input[type = password].o-input.normal,
-input[type = email].o-input.normal{
-    background-color: #ffffff !important;
-    border: 1px solid #ced4da !important;
-}
+
 input[type = text].o-input.rd,
 input[type = password].o-input.rd,
 input[type = email].o-input.rd{
@@ -175,7 +184,6 @@ form.o-form div.iconinput{
 /* working on the checkbox */
 div.formchek {
     display: flow-root;
-    float: left;
     margin: 10px;
 }
 div.formchek label{
@@ -183,7 +191,7 @@ div.formchek label{
     text-align: center;
     bottom: 7px;
 }
-input[type = checkbox].normal{
+input[type = checkbox].o-input{
     -webkit-appearance: none;
     background-color: #fafafa;
     border-radius: 1px;
@@ -193,53 +201,53 @@ input[type = checkbox].normal{
     width: 20px;
     height: 20px;
 }
-input[type = checkbox].normal:checked {
+input[type = checkbox].o-input:checked {
     background-color: #fafafa;
     color: #99a1a7;
 }
-input[type = checkbox].normal:active,
-input[type = checkbox].normal:checked:active {
+input[type = checkbox].o-input:active,
+input[type = checkbox].o-input:checked:active {
     box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px 1px 3px rgba(0,0,0,0.1);
 }
-input[type = checkbox].normal:checked:after {
+input[type = checkbox].o-input:checked:after {
     content: '\2714';
     font-size: 14px;
     position: absolute;
     top: 0px;
     left: 3px;
 }
-input[type = checkbox].normal:checked {
+input[type = checkbox].o-input:checked {
     color: #99a1a7;
 }
-input[type = checkbox].normal.pink:checked {
+input[type = checkbox].o-input.pink:checked {
     background-color: #FC0086;
     color: #ffffff !important;
 }
-input[type = checkbox].normal.purple:checked {
+input[type = checkbox].o-input.purple:checked {
     background-color: #5C2DF9;
     color: #ffffff !important;
 }
-input[type = checkbox].normal.primary:checked {
+input[type = checkbox].o-input.primary:checked {
     background-color: #1FB5F8; 
     color: #ffffff !important;
 }
-input[type = checkbox].normal.green:checked {
+input[type = checkbox].o-input.green:checked {
     background-color: #4EC541; 
     color: #ffffff !important;
 }
-input[type = checkbox].normal.lightgreen:checked {
+input[type = checkbox].o-input.lightgreen:checked {
     background-color: #26FB91; 
     color: #ffffff !important;
 }
-input[type = checkbox].normal.lightorange:checked {
+input[type = checkbox].o-input.lightorange:checked {
     background-color: #FBAD26;
     color: #ffffff !important;
 }
-input[type = checkbox].normal.red:checked {
+input[type = checkbox].o-input.red:checked {
     background-color: #F93636;
     color: #ffffff !important;
 }
-input[type = checkbox].normal.dark:checked {
+input[type = checkbox].o-input.dark:checked {
     background-color: #292929; 
     color: #ffffff !important;
 }
@@ -255,7 +263,7 @@ div.formrad label{
     text-align: center;
     bottom: 7px;
 }
-input[type = radio].normal {
+input[type = radio].o-input {
 	-webkit-appearance: none;
 	background-color: #fafafa;
 	border: 1px solid #cacece;
@@ -265,7 +273,7 @@ input[type = radio].normal {
 	display: inline-block;
 	position: relative;
 }
-input[type = radio].normal:checked:after {
+input[type = radio].o-input:checked:after {
 	content: ' ';
 	width: 12px;
 	height: 12px;
@@ -276,80 +284,104 @@ input[type = radio].normal:checked:after {
 	left: 3px;
 	font-size: 32px;
 }
-input[type = radio].normal:checked {
+input[type = radio].o-input:checked {
 	background-color: #e9ecee;
 	color: #99a1a7;
 	border: 1px solid #adb8c0;
 	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05), inset 15px 10px -12px rgba(255,255,255,0.1), inset 0px 0px 10px rgba(0,0,0,0.1);
 }
-input[type = radio].normal:active, .regular-radio:checked:active {
+input[type = radio].o-input:active, .regular-radio:checked:active {
 	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px 1px 3px rgba(0,0,0,0.1);
 }
-input[type = radio].normal.pink:checked:after {
+input[type = radio].o-input.pink:checked:after {
     background-color: #FC0086;
 }
-input[type = radio].normal.darkpink:checked:after {
+input[type = radio].o-input.darkpink:checked:after {
     background-color: #8A0E50;
 }
-input[type = radio].normal.softpink:checked:after {
+input[type = radio].o-input.softpink:checked:after {
     background-color: #B23577;
 }
-input[type = radio].normal.purple:checked:after {
+input[type = radio].o-input.purple:checked:after {
     background-color: #5C2DF9;
 }
-input[type = radio].normal.darkpurple:checked:after {
+input[type = radio].o-input.darkpurple:checked:after {
     background-color: #271467;
 }
-input[type = radio].normal.softpurple:checked:after {
+input[type = radio].o-input.softpurple:checked:after {
     background-color: #715DB3;
 }
-input[type = radio].normal.primary:checked:after {
+input[type = radio].o-input.primary:checked:after {
     background-color: #1FB5F8;
 }
-input[type = radio].normal.blue:checked:after {
+input[type = radio].o-input.blue:checked:after {
     background-color: #265FFC;
 }
-input[type = radio].normal.darkblue:checked:after {
+input[type = radio].o-input.darkblue:checked:after {
     background-color: #1C3885;
 }
-input[type = radio].normal.softblue:checked:after {
+input[type = radio].o-input.softblue:checked:after {
     background-color: #546DB3;
 }
-input[type = radio].normal.green:checked:after {
+input[type = radio].o-input.green:checked:after {
     background-color: #4EC541;
 }
-input[type = radio].normal.darkgreen:checked:after {
+input[type = radio].o-input.darkgreen:checked:after {
     background-color: #616527;
 }
-input[type = radio].normal.softgreen:checked:after {
+input[type = radio].o-input.softgreen:checked:after {
     background-color: #9BA234;
 }
-input[type = radio].normal.lightgreen:checked:after {
+input[type = radio].o-input.lightgreen:checked:after {
     background-color: #26FB91;
 }
-input[type = radio].normal.orange:checked:after {
+input[type = radio].o-input.orange:checked:after {
     background-color: #FBAD26;
 }
-input[type = radio].normal.darkorange:checked:after {
+input[type = radio].o-input.darkorange:checked:after {
     background-color: #9A6509;
 }
-input[type = radio].normal.softorange:checked:after {
+input[type = radio].o-input.softorange:checked:after {
     background-color: #BD8D3A;
 }
-input[type = radio].normal.red:checked:after {
+input[type = radio].o-input.red:checked:after {
     background-color: #F93636;
 }
-input[type = radio].normal.darkred:checked:after {
+input[type = radio].o-input.darkred:checked:after {
     background-color: #6C0D0D;
 }
-input[type = radio].normal.softred:checked:after {
+input[type = radio].o-input.softred:checked:after {
     background-color: #C34242;
 }
-input[type = radio].normal.dark:checked:after {
+input[type = radio].o-input.dark:checked:after {
     background-color: #292929;
 }
 
-   
+/* dropdown button */
+div.dropdown{
+    position: relative;
+    display: inline-block;
+}
+div.dropdown p{
+    margin: 0px;
+}
+div.dropdown div.drop-list{
+    width: auto;
+    display: none;
+    margin: 10px 0px 0px 0px;
+    font-size: 17px;
+    position: absolute;
+    padding-right: 5px;
+}
+div.dropdown div.drop-list a{
+    text-decoration: none;
+    width: 150px !important;
+    color: inherit;
+    padding: 7px 0px 7px 5px;
+    position: relative !important;
+    width: 100%;
+    display: inline-block;
+}   
 @media only screen and (min-width: 600px) {
 
 form.o-form {
@@ -359,12 +391,11 @@ form.o-form {
     display: flow-root;
 }
 form.o-form.large{
-    width: 30em !important;
+    width: 30em ;
 }
 form.o-form.huge{
-    width: 40em !important;
+    width: 40em ;
 }
-
 input[type= text].o-input,
 input[type= password].o-input,
 input[type= email].o-input{
@@ -374,6 +405,16 @@ input[type= email].o-input{
     border: 2.2px solid #1FB5F8;
     border-radius: 3px;
     font-size: 16px !important; 
+}
+input[type= text].o-input.large,
+input[type= password].o-input.large,
+input[type= email].o-input.large{
+    width: 500px;
+}
+input[type= text].o-input.huge,
+input[type= password].o-input.huge,
+input[type= email].o-input.huge{
+    width: 600px;
 }
 form.o-form input.o-input{
     width: 95%;
@@ -469,37 +510,9 @@ form.o-form.huge div.iconinput span.icon{
     width: 22.3% !important;
      /* height: 41px !important; */ 
 }
-
 /* fixing the span.icon img */
 form.o-form.huge div.iconinput span.icon img,
 form.o-form.large div.iconinput span.icon img{
     margin: 0px 40%;
-}
-
-/* dropdown button */
-div.dropdown{
-    position: relative;
-    display: inline-block;
-}
-div.dropdown p{
-    margin: 0px;
-}
-div.dropdown div.drop-list{
-    background-color: #ffffff;
-    width: auto;
-    display: flow-root;
-    margin: 10px 0px 0px 0px;
-    font-size: 17px;
-    position: absolute;
-    padding-right: 5px;
-}
-div.dropdown div.drop-list a{
-    text-decoration: none;
-    width: 150px !important;
-    color: inherit;
-    padding: 7px 0px 7px 5px;
-    position: relative !important;
-    width: 100%;
-    display: inline-block;
 }
 }
