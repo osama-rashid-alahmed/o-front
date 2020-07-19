@@ -145,13 +145,13 @@ html , body{
 .white:not(input):not(textarea){
     background-color:  #ffffff ;
 }
-.font-pink:not(textarea){
+.font-pink{
     color: #FC0086 !important;
 }
-.font-darkpink:not(input):not(textarea){
+.font-darkpink{
     color: #8A0E50 !important;
 }
-.font-softpink:not(textarea){
+.font-softpink{
     color: #B23577 !important;
 }
 .font-purple{
@@ -190,11 +190,11 @@ html , body{
 .font-orange{
     color: #FBAD26 !important;
 }
-.font-darkorange:not(input){
-    color: #9A6509 ;    
+.font-darkorange{
+    color: #9A6509 !important;    
 }
-.font-softorange:not(input){
-    color: #BD8D3A ;
+.font-softorange{
+    color: #BD8D3A !important;
 }
 .font-red{
     color: #F93636 !important;
