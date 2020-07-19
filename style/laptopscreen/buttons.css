@@ -113,15 +113,15 @@ button.bt.br.white{
     color: #ffffff;
 }
 button.bt.big{
-    width: 13em !important;
+    width: 13em ;
     font-size: 17px;
 }
 button.bt.large{
-    width: 20em !important;
+    width: 20em ;
     font-size: 19px;
 }
 button.bt.huge{
-    width: 25em !important;
+    width: 25em ;
     font-size: 20px;
 }
 button.bt.left{
@@ -137,9 +137,6 @@ button.bt.littleleft{
 button.bt.littleright{
     float: right !important;
     right: 15%;
-}
-button.bt.center{
-   left: 35% !important;  
 }
 button.bt.rd {
     border-radius: 30px !important;
