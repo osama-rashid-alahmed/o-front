@@ -1,6 +1,6 @@
 @media only screen and (max-width: 799px) { 
 
-o-footer div.hold-50 h1.title{
+o-footer div.hold-50 .title{
     font-size: 25px;
 }
 o-footer div.hold-50 a,
@@ -9,10 +9,9 @@ o-footer div.hold-50 p{
     font-size: 18px;
 }
 o-footer div .title{
-margin: 10px 10px 20px 10px;
+    margin: 10px 10px 20px 10px;
 }
 }
-
 @media only screen and (max-width: 499px) { 
 o-footer div.hold-75 .title,
 o-footer div.hold-25 .title,
