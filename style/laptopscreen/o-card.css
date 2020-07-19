@@ -1,13 +1,9 @@
 div.o-card{
     margin: 0.7px;
-    position: relative;
+    position: sticky;
     overflow: hidden;
     display: flow-root;
     z-index: 1;
-}
-div.o-card.xcenter{
-    width: 90% !important;
-    margin: 0 auto;
 }
 div.o-card.center-center{
     text-align: center;
@@ -19,13 +15,13 @@ div.o-card.center-left{
     float: left;
     text-align: left;
     top: 50%;
-    transform: translate(1%, -50%);
+    transform: translate(0%, -50%);
 }
 div.o-card.center-right{
     float: right;
     text-align: right;
     top: 50%;
-    transform: translate(-1%, -50%);
+    transform: translate(0%, -50%);
 }
 div.o-card.top-center{
     text-align: center;
@@ -35,27 +31,28 @@ div.o-card.top-center{
 div.o-card.top-left{
     float: left;
     text-align: left;
-    transform: translate(1%,-5%);
+    transform: translate(0%,-5%);
 }
 div.o-card.top-right{
     float: right;
     text-align: right;
-    transform: translate(-1%, -5%);
+    transform: translate(0%, -5%);
 }
 div.o-card.bottom-center{
     text-align: center;
     left: 50%;
-    transform: translate(-50%,50%);
+    transform: translate(-50%);
+    top: 80%;
 }
 div.o-card.bottom-left{
     float: left;
     text-align: left;
-    transform: translate(1%,50%);
+    top: 80%;
 }
 div.o-card.bottom-right{
     float: right;
     text-align: right;
-    transform: translate(-1%,50%);
+    top: 80%;
 }
 /* div.o-card  .center{
     position: relative;
@@ -77,7 +74,6 @@ div.o-card.full{
 div.o-card img.full{
     width: 100% !important;
     height: 100% !important;
-    position: absolute;
     top: 0px;
     }
 div.o-card img{
@@ -94,12 +90,7 @@ div.o-card img{
 }
 div.o-card img.cover{
     object-fit: cover;
-}
-div.container-list div.o-card h2{
-    position: absolute;
-    z-index: 1;
-    margin: 30px; 
-}
+}ً
 div.o-card img.ho-image{
     transform: scale(1.5);
 }
