@@ -128,7 +128,6 @@ class actionstyles {
                $('o-slide').animate({width:'show'},350);
             }else{
                $('o-slide').animate({width:'hide'},350);
-
             }
         })
      }
@@ -140,7 +139,7 @@ class actionstyles {
      }
      createstyle = () =>{
          var actionstyles1 = new actionstyles()
-         actionstyles1.ho_top("o-footer div ul.list li")
+         actionstyles1.ho_top("o-footer div ul.list.ho-top li")
          actionstyles1.gr_color("o-footer")
          actionstyles1 = null
      }
