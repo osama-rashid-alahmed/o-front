@@ -1,0 +1,9 @@
+@media only screen and (max-width: 550px) {
+form.o-form button.bt.large,
+form.o-form button.bt.big{
+    width:40%;
+}
+form.o-form button.bt.huge{
+    width:100%;
+}
+}
