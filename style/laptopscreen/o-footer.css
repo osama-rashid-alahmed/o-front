@@ -5,7 +5,7 @@ o-footer{
     height: auto;
     float: left;
     left: 0px;
-    bottom: 0px;
+    top: 0px;
     margin-top: 1px;
 }
 o-footer.large{
@@ -36,11 +36,10 @@ o-footer div.hold-100{
 }
 o-footer div ul{
     padding: 0px;
-    margin: 10px;   
+    margin: 12px 10px;   
     list-style: none;
 }
 o-footer div ul.large{
-    margin-top: -10px;
     font-size: 20px;
 }
 o-footer div ul li,
