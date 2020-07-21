@@ -15,6 +15,7 @@ second, you have to add the **global.css** in your **<head>** tag
 than add the **elements.js** and **jquery.js** in the bottom of the **<body>** tag 
 
 `<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>`
+
 `<script src="./js/elements.js"></script>`
 
 ### documentation
